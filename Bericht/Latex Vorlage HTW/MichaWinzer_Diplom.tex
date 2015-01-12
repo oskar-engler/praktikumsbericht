@@ -1,0 +1,210 @@
+\documentclass[a4paper, 10pt, titlepage]{scrreprt}
+
+\linespread{1.5}					%Zeilenabstand 1,5mm
+\parindent0cm						%Absatz wird nicht reingerückt
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}				%Zum Einbinden von externen Grafiken (jpeg,pdf)
+\usepackage{a4wide}					%Ausnutzen der ganzen Blattbreite
+\usepackage{fancyhdr} 				%Package für Kopf- und Fusszeile
+\usepackage[ngerman]{babel}		%Rechtschreibung
+\usepackage{hyperref}				%Einfügen von Weblinks
+\usepackage{amsmath}				%Paket für mathematische Formeln
+\usepackage{amsfonts}				%zusätzliche mathematische Zeichen
+\usepackage{amssymb}				%zusätzliche mathematische Symbole
+\usepackage[labelfont=bf]{caption}  %"Abbildung" fett geschrieben
+\usepackage{subfigure} %Bilder da plazieren wo sie auch im Latex-Code stehen
+\usepackage{graphicx}
+\usepackage{eso-pic,picture}
+\usepackage[absolute]{textpos}
+\usepackage{hyphenat}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{url}
+\usepackage{chngcntr}
+\usepackage{tikz}
+\counterwithin{figure}{section}
+\usepackage[a4paper, left=3.5cm, right=2.5cm, top=2.0cm, bottom=2.0cm,footskip=1.5cm, includeheadfoot] {geometry}  % manuelles Seitenlayout
+\usepackage{bibgerm}        % Einfügen des Literaturverzeichnisses
+\usepackage{eurosym}        % Einfügen des € Zeichens
+%\usepackage{lscape}        % Text einer Seite wird im quer dargestellt
+%\usepackage[a4paper]{geometry}                     % Querformat einer Seite
+\usepackage{pdfpages}       % Einfügen von ganzen PDF-Seiten
+\usepackage{array}
+
+%================================================================================
+
+%% definieren einer neuen Tabelle mit automatischen Umbruch
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}%m-vertikal zentriert, b bottom, p top; allg: zur Definition einer festen Spaltenbreite
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+
+
+%================================================================================
+
+%Kopfzeile
+%--------------------------------------------------------------------------------%\fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
+%\pagestyle{fancy} %eigener Seitenstil
+
+%Kopfzeile links bzw. innen
+%\fancyhead[L]{Michael Winzer}
+%Kopfzeile mittig
+%\fancyhead[C]{D-Nr./2014}
+%\facnyhead[R]{\chaptermark}
+%\renewcommand{\headrulewidth}{0.5pt}				%obere Linie
+
+%Fußzeile
+%--------------------------------------------------------------------------------
+%\fancyfoot[R]{\thepage} 							%Seitennummer
+%\fancyfoot[L]{\nouppercase{\leftmark}}							%Kapitelbezeichnung Position
+%\renewcommand{\chaptermark}[1]{\markboth{\thechapter.~\chaptername: #1}{}}	%Kapitelbezeichnung 
+
+
+
+%--------------------------------------------------------------------------------
+
+
+\begin{document}
+
+
+%Titelseite
+%--------------------------------------------------------------------------------
+\begin{titlepage}
+\thispagestyle{empty} 		%Keine Kopf- und Fusszeilen, keine Seitenzahl
+\linespread{1.0}
+
+\begin{figure}
+\includegraphics[scale=0.3]{images/HTW-Logo}
+\end{figure}
+
+
+\hrule
+\vspace{0.2 cm}
+\textbf{Fakultät Maschinenbau/Verfahrenstechnik,}
+\vspace{0.1 cm}
+\hrule
+\vspace{0.2 cm}
+Fahrzeugtechnik 
+
+
+
+\begin{flushleft}
+\vspace{8 cm}
+\huge\textbf{Konstruktive Weiterentwicklung eines modularen Batteriespeichers  in  
+20‘-Containerbauweise für PV - Hybridkraftwerke}\\ [0.5 cm]
+\Large{Untertitel bzw. nähere Beschreibung des Themas oder der Aufgabenstellung}\\ [1.5 cm]
+\Large{Dresden, DATUM}
+\end{flushleft}
+
+\pagebreak 
+
+\thispagestyle{empty} 		%Keine Kopf- und Fusszeilen, keine Seitenzahl
+
+\begin{figure}
+\includegraphics[scale=0.3]{images/HTW-Logo}
+\end{figure}
+
+\hrule
+\vspace{0.2 cm}
+\textbf{Fakultät Maschinenbau/Verfahrenstechnik,} 
+\vspace{0.1 cm}
+\hrule
+\vspace{0.2 cm}
+Studiengang Fahrzeugtechnik
+
+\begin{center}
+\vspace{2 cm}
+\huge\textbf{ART DER ARBEIT}
+\huge\textbf{(DIPLOMARBEIT)}
+\vspace{2 cm}
+\end{center}
+
+
+
+\begin{tabular}{lL{6,5cm}}
+\Large\textbf{Thema:} & \Large{Konstruktive Weiterentwicklung eines modularen Batteriespeichers in 20‘-Containerbauweise für PV - Hybridkraftwerke}\\
+\Large\textbf{Bearbeiter:} & \Large{Michael Winzer}\\
+\Large\textbf{Matrikelnummer:} & \Large{28563}\\
+\Large\textbf{Bearbeitungszeitraum:} & \Large{TT.MM.JJ bis TT.MM.JJ}\\
+\Large\textbf{Ort, Datum der Abgabe:} & \Large{Dresden, DATUM}\\
+\Large\textbf{Nummer:} & \Large{XYZ}\\
+\Large\textbf{Betreuer:} & \Large{Dipl. Ing. Lars Fallant}\\
+\Large\textbf{Verantw. Hochschullehrer:} \hspace{1 cm} & \Large{Name des Hochschullehrers}\\
+\vspace{1 cm}\\
+\large{Textseiten:} & \large{xx}\\
+\large{Anlagen:} & \large{yy}\\
+\large{Anhänge:} & \large{zz}\\
+\end{tabular}
+
+
+\end{titlepage}
+%
+\linespread{1.5}
+
+%Aufgabenstellung
+%---------------------------------------------------------------------------------
+\fancyhf{}
+
+\thispagestyle{fancy}
+\fancyhead[L]{Michael Winzer}
+%Kopfzeile mittig
+\fancyhead[C]{D-Nr./2014}
+\fancyhead[R]{HTW-Dresden}
+%\renewcommand{\headrulewidth}{0.5pt}
+\Large\textbf{Aufgabenstellung}\\ 
+
+Hier wird eine Kopie bzw. für das Bibliotheksexemplar das Original der ausgereichten Aufgabenstellung eingeordnet.
+
+\pagebreak 
+
+
+
+
+%Hauptteil
+%---------------------------------------------------------------------------------
+%Kapitel sind für eine bessere Übersicht in eigenen Dateien und werden hier aufgerufen:
+
+\include{Sperrvermerk}
+
+
+%Kopfzeile
+%-------------------------------------------------------------------------------- \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
+\pagestyle{fancy} %eigener Seitenstil
+
+%Kopfzeile links bzw. innen
+\fancyhead[L]{Michael Winzer}
+%Kopfzeile mittig
+\fancyhead[C]{D-Nr./2014}
+%\facnyhead[R]{\chaptermark}
+\renewcommand{\headrulewidth}{0.5pt}				%obere Linie
+
+%Fußzeile
+%--------------------------------------------------------------------------------
+\fancyfoot[R]{\thepage} 							%Seitennummer
+\fancyfoot[L]{\nouppercase{\leftmark}}							%Kapitelbezeichnung Position
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.~\chaptername: #1}{}}	%Kapitelbezeichnung 
+
+\setcounter{page}{1}
+\pagenumbering{Roman}
+\include{Inhaltsverzeichnis}
+\include{Abkuerzung}
+\include{Symbolverzeichnis}
+\include{Abbildungsverzeichnis}
+\include{Tabellenverzeichnis}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\include{Einleitung}
+\include{Kapitel1}
+\include{Kapitel2}
+\include{Kapitel3}
+\include{Literatur} 
+\include{Indizes}
+\include{Erklaerung}
+\include{Anhang}
+\include{Datentraeger}
+
+
+
+
+\end{document}

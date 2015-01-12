@@ -1,0 +1,86 @@
+\documentclass[12pt, 
+ oneside,%einseitig 
+ a4paper,% A4 Format 
+ openany, 
+ numbers=noenddot, 
+ listof=totoc,            % Verzeichnisse im Inhaltsverzeichnis aufführen 
+ bibliography=totoc,            % Literaturverzeichnis im Inhaltsverzeichnis aufführen 
+ index=totoc,            % Index im Inhaltsverzeichnis aufführen 
+ captions=tableheading,   % Beschriftung von Tabellen oberhalb ausgeben 
+]{scrreprt} 
+
+%Einstellungen der Seitenränder 
+\usepackage[left=2.5cm,right=4cm,top=3cm,bottom=2cm,includeheadfoot]{geometry} 
+
+%neue Rechtschreibung 
+\usepackage{ngerman} 
+
+%Umlaute ermöglichen 
+\usepackage[latin1]{inputenc} 
+   
+%Kopf- und Fußzeile 
+\usepackage{graphicx} 
+\usepackage{helvet} 
+\renewcommand\familydefault{phv} %brauche ich für Arial 
+\usepackage{setspace} 
+\hyphenation{Trenn-bar-es} 
+%Kopf- und Fußzeile 
+
+\usepackage{scrpage2} 
+\pagestyle{scrheadings} 
+\ohead{\pagemark} 
+\chead{\headmark} 
+\ihead{} 
+\ofoot{}\ifoot{}\cfoot{} 
+
+\sloppy 
+\renewcommand*{\chapterheadstartvskip}{\vspace*{-2.3\baselineskip}} % 2.3Überschriften weiter hoch 
+\renewcommand*{\chapterheadendvskip}{\vspace{-0.105\baselineskip}} %verringert Abstand zur 2. Überschrift oder Text 0.105 
+
+
+\hyphenation{Trenn-bar-es} 
+
+
+
+%************************Titelseite******************* 
+\title{Titel} 
+\subtitle{- Untertitel} 
+\author{ich} 
+
+
+\onehalfspacing 
+\begin{document} 
+\maketitle 
+%************Ende der Titelseite********* 
+\clearpage 
+%***************Widmung******** 
+\vspace*{\fill} 
+{\hfill\sffamily\itshape Für...} 
+
+
+\rmfamily 
+\normalfont 
+
+% *************** Table of contents *************** 
+\pagenumbering{Roman} 
+%\input{danksagungen}  
+%\input{eidesstattliche} 
+\tableofcontents 
+
+\listoffigures 
+
+
+\listoftables 
+\newpage 
+\pagenumbering{arabic} 
+\mainmatter 
+\chapter{Einleitung} 
+
+
+ abc 
+
+\newpage 
+ abc 
+\newpage 
+ abc 
+\end{document} 

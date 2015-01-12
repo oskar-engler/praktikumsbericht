@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="body" viewBox="0 0 1 1" preserveAspectRatio="none meet" width="800" height="161" baseProfile="full" version="1.1">
+<g id="content" letter-spacing="normal" font-style="normal" font-variant="normal" font-weight="normal" word-spacing="normal" font-size-adjust="none" font-stretch="normal" fill="none" fill-opacity="1" fill-rule="even-odd" stroke="black" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10.433" stroke-opacity="1" text-anchor="start" transform="scale(1 4.9689) translate(0 0.2) scale(1 -1) scale(0.00378)" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve">
+<polyline fill="#231f20" stroke="#231f20" stroke-width="0" points="0.8,2.4 0.8,50.4 10.8,50.4 10.8,27.4 30.8,27.4 30.8,50.4 54.8,50.4 54.8,2.4 44.8,2.4 44.8,48.4 32.8,48.4 32.8,2.4 30.8,2.4 30.8,25.4 10.8,25.4 10.8,2.4" />
+<polyline fill="#231f20" stroke="#231f20" stroke-width="0" points="64.8,2.4 64.8,50.4 79.8,50.4 79.8,48.4 66.8,48.4 66.8,2.4" />
+<polyline fill="#231f20" stroke="#231f20" stroke-width="0" points="64.8,2.4 92.8,50.4 103.6,50.4 75.6,2.4" />
+<polyline fill="#fa9d1c" stroke="#fa9d1c" stroke-width="0" points="86.8,2.4 114.8,50.4 125.6,50.4 97.6,2.4" />
+<text font-family="Helvetica,sans-serif" font-size="20px" fill="#231f20" stroke="none" transform="translate(140.2 42.3) scale(0.59 -0.54)">Hochschule für</text>
+<text font-family="Helvetica,sans-serif" font-size="20px" fill="#231f20" stroke="none" transform="translate(140.2 29.1) scale(0.59 -0.54)">T</text>
+<text font-family="Helvetica,sans-serif" font-size="20px" fill="#231f20" stroke="none" transform="translate(145.81 29.1) scale(0.59 -0.54)">echnik und Wirtschaft</text>
+<text font-family="Helvetica,sans-serif" font-size="20px" fill="#231f20" stroke="none" transform="translate(140.2 15.8) scale(0.59 -0.54)">Dresden</text>
+<text font-family="Helvetica,sans-serif" font-size="20px" fill="#231f20" stroke="none" transform="translate(140.2 2.4) scale(0.44 -0.54)">University of Applied Sciences</text>
+</g>
+</svg>
