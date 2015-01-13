@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  12 JAN 2015 16:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  13 JAN 2015 14:34
 entering extended mode
 **Praktikumsbericht.tex
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.tex"
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.tex"
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrreprt.cls"
@@ -961,10 +961,14 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count143
 \AM@templatesizebox=\box44
 )
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.aux" ("C:\bin\Praktikumsbericht\Bericht LaTeX\Sperrvermerk.au
-x") ("C:\bin\Praktikumsbericht\Bericht LaTeX\Inhaltsverzeichnis.aux")
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Abkuerzung.aux") ("C:\bin\Praktikumsbericht\Bericht LaTeX\Symbolverzeichnis.aux
-") ("C:\bin\Praktikumsbericht\Bericht LaTeX\Abbildungsverzeichnis.aux"))
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.aux"
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Sperrvermerk.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Inhaltsverzeichnis.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Abkuerzung.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Symbolverzeichnis.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Abbildungsverzeichnis.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Einleitung.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\EidesstattlicheErklarung.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
@@ -1008,8 +1012,8 @@ LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
 
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.out")
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.out")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.out")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.out")
 \@outlinefile=\write4
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
@@ -1052,7 +1056,7 @@ Package caption Info: End \AtBeginDocument code.
 
 bibgerm.sty: babel.sty detected
 
-<images/HTW-Logo.png, id=22, 427.5975pt x 161.60374pt>
+<images/HTW-Logo.png, id=30, 427.5975pt x 161.60374pt>
 File: images/HTW-Logo.png Graphic file (type png)
  <use images/HTW-Logo.png>
 Package pdftex.def Info: images/HTW-Logo.png used on input line 57.
@@ -1069,7 +1073,8 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/bin/Praktikumsbericht/Bericht LaTeX/images/HTW-Logo.png>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/HTW-Logo.png
+>]
 File: images/HTW-Logo.png Graphic file (type png)
  <use images/HTW-Logo.png>
 Package pdftex.def Info: images/HTW-Logo.png used on input line 80.
@@ -1096,136 +1101,115 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
-[2] ("C:\bin\Praktikumsbericht\Bericht LaTeX\Sperrvermerk.tex"
+[2] ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Sperrvermerk.tex"
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--131
+Underfull \hbox (badness 10000) in paragraph at lines 4--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--131
+Underfull \hbox (badness 10000) in paragraph at lines 4--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--131
+Underfull \hbox (badness 10000) in paragraph at lines 4--132
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 131.
-[3
+(babel)             in language  on input line 132.
+[1
 
 
-] ("C:\bin\Praktikumsbericht\Bericht LaTeX\Inhaltsverzeichnis.tex"
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.toc")
+] ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Inhaltsverzeichnis.tex"
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.toc"
+
+! Package inputenc Error: Unicode char \u 8:\GenericError {(inputenc)                }{Package inputenc Error: Unicode c
+har \u8:äru not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ign
+ored.
+(inputenc) Type  I <command> <return>  to replace it with another command,
+(inputenc) or  <return>  to continue without it.} not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...o continue without it.}ng}{VI}{chapter*.11}
+                                                  
+Your command was ignored.
+Type I <command> <return> to replace it with another command,
+or <return> to continue without it.
+
+)
 \tf@toc=\write5
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 153.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 153.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 153.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 152.
- [1
+(babel)             in language  on input line 153.
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.153 \include{Inhaltsverzeichnis}
+                                   [1
 
 
 
-]
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Abkuerzung.tex"
+] ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Abkuerzung.tex"
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
  [2
 
 
 
 ]
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Symbolverzeichnis.tex"
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Symbolverzeichnis.tex"
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\rm'!
-(scrreprt)              You should note, that in 1994 font command `\rm' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\rm' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\mathrm ' on input line 11.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\rm'!
-(scrreprt)              You should note, that in 1994 font command `\rm' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\rm' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\mathrm ' on input line 12.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\rm'!
-(scrreprt)              You should note, that in 1994 font command `\rm' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\rm' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\mathrm ' on input line 19.
-
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 155.
  [3
 
 
 
-] ("C:\bin\Praktikumsbericht\Bericht LaTeX\Abbildungsverzeichnis.tex"
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.lof")
+]
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Abbildungsverzeichnis.tex"
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.lof")
 \tf@lof=\write6
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
@@ -1233,48 +1217,398 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
  [4
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Einleitung.tex"
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
 
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Praktikumsbericht.aux" ("C:\bin\Praktikumsbericht\Bericht LaTeX\Sperrvermerk.au
-x") ("C:\bin\Praktikumsbericht\Bericht LaTeX\Inhaltsverzeichnis.aux")
-("C:\bin\Praktikumsbericht\Bericht LaTeX\Abkuerzung.aux") ("C:\bin\Praktikumsbericht\Bericht LaTeX\Symbolverzeichnis.aux
-") ("C:\bin\Praktikumsbericht\Bericht LaTeX\Abbildungsverzeichnis.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 Die Firma Belectric GmbH wurde im 2001 gegrü
+                                                ndet und hat sein Standort i...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...sein Standort im Kolitzheim. Seit dem hat ü
+                                                  ber 1,5 GWp Solarleistung ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...stalliert. Sie wurde somit eine Weltmarktfü
+                                                  hrer in den Bereich Instal...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:äch not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...r in den Bereich Installation von Freifläch
+                                                  ensolarkraftwerken. Es wer...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...der Installation umgesetzt. Weltweit sind ü
+                                                  ber 1600 beschäftigte Mens...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:äft not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...umgesetzt. Weltweit sind über 1600 beschäft
+                                                  igte Menschen, die in Bere...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...sis GmbH, mit dem Standort im Dresden, gehö
+                                                  rt zu den Entwicklungs- un...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...der Belectric GmbH. Sie wurde im 2006 gegrü
+                                                  ndet und seit dem betreibt...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ... seit dem betreibt ein Forschungszentrum fü
+                                                  r den Gebiet Photovoltaik....
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:Üb not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...ungszentrum für den Gebiet Photovoltaik. Üb
+                                                  er 70 Mitarbeitern sind in...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...au, Physik und Chemie angestellt. Einen grö
+                                                  ßeren Teil der Mitarbeiter...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:ße not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ..., Physik und Chemie angestellt. Einen größe
+                                                  ren Teil der Mitarbeiter b...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...u den Aufgabenfeldern der Adensis GmbH gehö
+                                                  rt Durchführen von Testen ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...abenfeldern der Adensis GmbH gehört Durchfü
+                                                  hren von Testen und Analys...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:äft not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...m, der im Adensis entwickelt war,  beschäft
+                                                  igt. Meine Aufgabe war ein...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...igt. Meine Aufgabe war einen Algorithmus fü
+                                                  r die B&R Steuerung entwic...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+! Misplaced alignment tab character &.
+l.6 ...ne Aufgabe war einen Algorithmus für die B&
+                                                  R Steuerung entwickeln sol...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! Package inputenc Error: Unicode char \u8:äft not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...n Daten aus einer Kraftwerksanlage beschäft
+                                                  igt. Das soll mittels eine...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 157.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 157.
+ [5
+
+
+
+] ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\EidesstattlicheErklarung.tex"
+
+! Package inputenc Error: Unicode char \u8:äru not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \chapter*{Eidesstattliche Erklärung}
+                                        \thispagestyle{fancy}\markboth{}{}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+
+! Package inputenc Error: Unicode char \u8:änd not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...ar Engler, die vorliegende Arbeit selbständ
+                                                  ig, ohne fremde Hilfe und ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ... aus fremden Quellen direkt oder indirekt ü
+                                                  bernommenen Gedanken sind ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 Die Arbeit wurde noch keiner Prü
+                                    fungsbehörde in gleicher oder ähnlicher ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 Die Arbeit wurde noch keiner Prüfungsbehö
+                                             rde in gleicher oder ähnlicher ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:ähn not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...keiner Prüfungsbehörde in gleicher oder ähn
+                                                  licher Form vorgelegt.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 159.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 159.
+ [6
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+ ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.aux"
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Sperrvermerk.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Inhaltsverzeichnis.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Abkuerzung.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Symbolverzeichnis.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Abbildungsverzeichnis.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Einleitung.aux")
+("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\EidesstattlicheErklarung.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `Praktikumsbericht.out' has not changed.
-(rerunfilecheck)             Checksum: AFC03A9A0C0D38E78D8B469B7CB64B87;222.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+(rerunfilecheck)             Checksum: 8BF893C517CA5C22BA9BB62633359489;330.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 20689 strings out of 493705
- 377608 string characters out of 3142071
- 495601 words of memory out of 3000000
- 23578 multiletter control sequences out of 15000+200000
+ 20723 strings out of 493705
+ 379123 string characters out of 3142071
+ 497483 words of memory out of 3000000
+ 23595 multiletter control sequences out of 15000+200000
  8642 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 64i,11n,60p,442b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,11n,60p,706b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Praktikumsbericht.pdf (7 pages, 129739 bytes).
+Output written on Praktikumsbericht.pdf (9 pages, 135181 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
