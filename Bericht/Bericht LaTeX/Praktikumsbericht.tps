@@ -18,7 +18,7 @@ Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
 TopLine=139
-Cursor=5156
+Cursor=5073
 
 [Frame1]
 Flags=0
@@ -166,7 +166,7 @@ Cursor=106
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=4
+ActiveFrame=0
 
 [Bookmarks]
 EidesstattlicheErklarung.tex=8 
