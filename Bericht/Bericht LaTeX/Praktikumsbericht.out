@@ -1,8 +1,20 @@
-\BOOKMARK [0][-]{chapter*.3}{Sperrvermerk}{}% 1
-\BOOKMARK [0][-]{chapter*.5}{Abk\374rzungsverzeichnis}{}% 2
-\BOOKMARK [0][-]{chapter*.6}{Symbolverzeichnis}{}% 3
-\BOOKMARK [0][-]{chapter*.9}{Abbildungsverzeichnis}{}% 4
-\BOOKMARK [0][-]{chapter*.10}{Einleitung}{}% 5
-\BOOKMARK [0][-]{chapter*.11}{Oktober}{}% 6
-\BOOKMARK [1][-]{section.0.1}{Einfhrung in die BR Steuerung}{chapter*.11}% 7
-\BOOKMARK [0][-]{chapter*.12}{Eidesstattliche Erklng}{}% 8
+\BOOKMARK [0][-]{chapter*.2}{Sperrvermerk}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Abk\374rzungsverzeichnis}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Symbolverzeichnis}{}% 3
+\BOOKMARK [0][-]{chapter*.8}{Abbildungsverzeichnis}{}% 4
+\BOOKMARK [0][-]{chapter*.9}{Einleitung}{}% 5
+\BOOKMARK [0][-]{chapter*.12}{Algorithmus Entwicklung}{}% 6
+\BOOKMARK [1][-]{section.0.1}{Einfhrung in die BR Steuerung}{chapter*.12}% 7
+\BOOKMARK [1][-]{section.0.2}{Erstellung eines BMS-Planes \(BMS = Batterie Management System\)}{chapter*.12}% 8
+\BOOKMARK [1][-]{section.0.3}{BMS Algorithmus in C entwickeln}{chapter*.12}% 9
+\BOOKMARK [1][-]{section.0.4}{In den Strukturierten Text ST umwandeln}{chapter*.12}% 10
+\BOOKMARK [1][-]{section.0.5}{Anwendung fr die BR Steuerung}{chapter*.12}% 11
+\BOOKMARK [0][-]{chapter*.13}{Web-Visualisierung}{}% 12
+\BOOKMARK [1][-]{section.0.6}{Besprechung mit Kollegen ber Inhalt/Design}{chapter*.13}% 13
+\BOOKMARK [1][-]{section.0.7}{Konzept fr die Oberfle mittels Skizzen und grafischer Software\)}{chapter*.13}% 14
+\BOOKMARK [1][-]{section.0.8}{Nutzen von Bootstrap Frameworks, HTML, CSS fr die Visualisierungen}{chapter*.13}% 15
+\BOOKMARK [1][-]{section.0.9}{Mittels FTP die Seite online stellen}{chapter*.13}% 16
+\BOOKMARK [1][-]{section.0.10}{Mit SQL Database arbeiten und Meta-Datenbanken erstellen}{chapter*.13}% 17
+\BOOKMARK [1][-]{section.0.11}{Mit JavaScript, jQuery und PHP dynamische Umsetzung und mit SQL Datenbanken verbinden}{chapter*.13}% 18
+\BOOKMARK [1][-]{section.0.12}{Mit Hilfe von Diagramm-Bibliotheken die Daten aus Datenbanken visualisieren}{chapter*.13}% 19
+\BOOKMARK [0][-]{chapter*.14}{Eidesstattliche Erklng}{}% 20

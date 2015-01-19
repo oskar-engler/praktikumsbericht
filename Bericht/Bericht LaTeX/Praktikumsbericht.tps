@@ -72,7 +72,7 @@ Document=Abkuerzung.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=108
+Cursor=367
 
 [Frame4]
 Flags=0
@@ -166,7 +166,7 @@ Cursor=106
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=0
+ActiveFrame=3
 
 [Bookmarks]
 EidesstattlicheErklarung.tex=8 

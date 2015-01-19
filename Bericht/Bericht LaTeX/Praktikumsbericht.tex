@@ -1,8 +1,8 @@
-\documentclass[a4paper,10pt, titlepage]{scrreprt}
+\documentclass[a4paper,11pt, titlepage]{scrreprt}
 %basic page
 
-\linespread{1.5}				%Zeilenabstand 1,5mm
-\parindent0cm						%Absatz wird nicht reingerückt
+\linespread{1,5}				%Zeilenabstand 1,5mm
+\parindent1cm						%Absatz wird nicht reingerückt
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}				%Zum Einbinden von externen Grafiken (jpeg,pdf)
@@ -27,7 +27,7 @@
 \usepackage{chngcntr}
 \usepackage{tikz}
 \counterwithin{figure}{section}
-\usepackage[a4paper, left=3.5cm, right=2.5cm, top=2.0cm, bottom=2.0cm,footskip=1.5cm, includeheadfoot] {geometry}  % manuelles Seitenlayout
+\usepackage[a4paper, left=3cm, right=2.5cm, top=2.0cm, bottom=2.0cm,footskip=1.5cm, includeheadfoot] {geometry}  % manuelles Seitenlayout
 \usepackage{bibgerm}        % Einfügen des Literaturverzeichnisses
 \usepackage{eurosym}        % Einfügen des € Zeichens
 %\usepackage{lscape}        % Text einer Seite wird im quer dargestellt
@@ -49,31 +49,6 @@
 
 %Titelseite
 %--------------------------------------------------------------------------------
-\begin{titlepage}
-\thispagestyle{empty} 		%Keine Kopf- und Fusszeilen, keine Seitenzahl
-\linespread{1.0}
-
-\begin{figure}
-\includegraphics[scale=0.3]{images/HTW-Logo}
-\end{figure}
-
-\hrule
-\vspace{0.2 cm}
-\textbf{Fakultät Elektrotechnik}
-\vspace{0.1 cm}
-\hrule
-\vspace{0.2 cm}
-Studiengang: Mechatronik/Fahrzeugmechatronik 
-
-\begin{flushleft}
-\vspace{8 cm}
-\huge\textbf{Praktikumsbericht}\\ [0.5 cm]
-\Large{Bericht zur Praktikum im Adensis GmbH}\\ [1.5 cm]
-\Large{Dresden, DATUM}
-\end{flushleft}
-\pagebreak 
-
-%new page
 
 \thispagestyle{empty} 		%Keine Kopf- und Fusszeilen, keine Seitenzahl
 \begin{figure}
@@ -100,7 +75,7 @@ Studiengang: Mechatronik/Fahrzeugmechatronik
 \Large\textbf{Matrikelnummer:} & \Large{34431}\\
 \Large\textbf{Bearbeitungszeitraum:} & \Large{01.10.14 bis 28.02.15}\\
 \Large\textbf{Ort, Datum der Abgabe:} & \Large{Dresden, DATUM}\\
-\Large\textbf{Betreuer:} & \Large{Dipl. Ing. Lars Mademann ??}\\
+\Large\textbf{Betreuer:} & \Large{Dipl. Ing. Lars Mademann}\\
 \Large\textbf{Verantw. Hochschullehrer:} \hspace{1 cm} & \Large{Prof. Dr.-Ing. Ralf Boden}\\
 \vspace{1 cm}\\
 \large{Textseiten:} & \large{xx}\\
@@ -149,15 +124,14 @@ Studiengang: Mechatronik/Fahrzeugmechatronik
 \renewcommand{\chaptermark}[1]{\markboth{\thechapter.~\chaptername: #1}{}}	%Kapitelbezeichnung 
 
 \setcounter{page}{1}
-\pagenumbering{Roman}
+\pagenumbering{arabic}
 \include{Inhaltsverzeichnis}
 \include{Abkuerzung}
 \include{Symbolverzeichnis}
 \include{Abbildungsverzeichnis}
-\setcounter{page}{1}
-\pagenumbering{arabic}
 \include{Einleitung}
 \include{Oktober}
+\include{WebVisu}
 
 \include{EidesstattlicheErklarung}
 
