@@ -1,31 +1,67 @@
 \chapter*{Web-Visualisierung}\thispagestyle{fancy}\markboth{Web-Visualisierung}{}
 \addcontentsline{toc}{chapter}{Web-Visualisierung}
 
+\section{Besprechung mit Kollegen über Inhalt/Design}
 
-\section{Besprechung mit Kollegen über Inhalt/Design }
+\large
+{Ab November soll ein neues Projekt entstehen, welches das Ziel hat, einige gemessene und gesendete Daten einer Kraftwerk, mittels eine Website  visualisieren. Am Anfang war das Projekt-Zielstellung besprochen worden. In diese Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebete Systeme soll einen Apache Server mit PHP installieren und eine postgreSQL Datenbank, wo alle Werten aus eine Kraftwerk gespeichert werden, erstellen. Mir war die Visualisierung von diese Daten zugeordnet. Die visualisierte Daten sollen in einer Website dargestellt werden. \\
+Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Es war festgelegt, welche Daten zu visualisieren geeignet sind. Es war auch besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks, jQuery und dazugehörige Software für die Bearbeitung.}
 
-\large{Es folgen Besprechungen, Brainstorming über das was wir eigentlich wollen, was möchte wir damit errreichen, was unsere Ziel}
+% erstmals einen Projekt Plan erstellt, Besprechung\\
 
-\section{Konzept für die Oberfläche mittels Skizzen und grafischer Software)}
+% jeweiligen aufgaben verteilen = Eingebete Systeme sollen eine Apache Server mit PHP, ich soll die Website, Design und Konzept entwickeln\\
 
-\large{Mittels grafischer Soft und Papier habe ich zu erst Konzepte für die Website erstellt, Ideen wie es aussehen soll, dann wieder besprechen}
+% definieren was wird visualisiert, Was ist unsere ziel? (genauer definieren) = Daten eine Kraftwerk übersichtlich darstellen und im Diagrammen anzeigen\\
+
+
+
+
+\section{Konzept für die Oberfläche mittels Skizzen und grafischer Software}
+
+\Large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite \ref{Anlagenblocke} und für die Seite, wo die jeweiligen Anlagen angezeigt werden, gemacht habe. Der Schwerpunkt war die jeweilige Elementen, wie Tabellen, Diagrammen und andere, übersichtlich und in eine vereinfachte Form darstellen. Es war auch gebraucht einen Konzept für die Seite mit eine Auswahl von Länder zu entwickeln. Da ist meine Abteilung auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann.}
+
+% Mittels grafischer Soft und Papier habe ich zu erst Konzepte für die Website erstellt, Ideen wie es aussehen soll, dann wieder besprechen
+% Interface, wie soll die Seite aussehen = Tabellen, Reports, Fehlern, Diagramme, Menü-Auswahl Liste mit Modulen, Auswahl von Ländern, Kraftwerken\\
+
+\begin{figure}[htbp]
+  \centering
+     \subfigure[Bezeichnung der linken Grafik]{\includegraphics[width=0.4\textwidth]{images/Liste_Kontinente.PNG}}
+			\hspace{1cm}
+		 \subfigure[Bezeichnung der rechte Grafik]{\includegraphics[width=0.4\textwidth]{images/Liste_Anlagenblocke.PNG}}
+	\caption{Liste Anlagenblöcke}
+  \label{Anlagenblocke}
+\end{figure}
 
 \section{Nutzen von Bootstrap Frameworks, HTML, CSS für die Visualisierungen}
 
-\large{Mit Website-tools, Sprachen, Frameworks habe ich erste Konzepte realisiert und die Elementen dargestellt}
+\Large{Mit Website-Tools, Sprachen, Frameworks habe ich erste Konzepte realisiert und die Elementen dargestellt}
+
+
+% Key-Components: mit welchen Mitteln die Daten visualisieren = Bootstrap, JS, jQuery und andere\\
+
 
 \section{Mittels FTP die Seite online stellen}
 
-\large{Kollegen haben einen Server erstellt, wo ich die Website veroffentlichen soll, damit die online verfugbar ist}
+\Large{Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist}
+
+
 
 \section{Mit SQL Database arbeiten und Meta-Datenbanken erstellen}
 
-\large{Verbinden von Daten aus SQL, Meta-Datenbank erstellt, welche die Allgemeine Infos und Daten zu Kraftwerk beinhaltet, Einen System erstellt und die Datenbank über SQL Sprache erstellt}
+\Large{Verbinden von Daten aus SQL, Meta-Datenbank erstellt, welche die Allgemeine Infos und Daten zu Kraftwerk beinhaltet, Einen System erstellt und die Datenbank über SQL Sprache erstellt}
 
-\section{Mit JavaScript, jQuery und PHP dynamische Umsetzung und mit SQL Datenbanken verbinden}
 
-\large{Eine Dynamische Umsetzung erfolgt mittels PHP und andere.. es ist wichtig, dass die Seite dynamisch funktioniert, dass es automatisiert ist und wenn wir die SQL erweitern dann wird es auto. im Website angezeigt}
+
+\section{Mit JS, jQuery, PHP dynamische Umsetzung und SQL Datenbanken verbinden}
+
+\Large{Eine Dynamische Umsetzung erfolgt mittels PHP und andere.. es ist wichtig, dass die Seite dynamisch funktioniert, dass es automatisiert ist und wenn wir die SQL erweitern dann wird es automatisch im Website angezeigt}
+
+% Key-Features: die Ajax Abfragen - aktualisieren von Daten, Daten aus der EBU, WR, BMS, Pool und evtl. noch weiteren visualisieren\\
+
+
 
 \section{Mit Hilfe von Diagramm-Bibliotheken die Daten aus Datenbanken visualisieren}
 
-\large{Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
+\Large{Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die Open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
+
+% Charts-Plattform, welche Diagramm-Bibliothek benutzen wir? = meine Aufgabe war eine Auswahl von Charts machen, den besten finden und lernen damit die Daten visualisieren\\

@@ -2,7 +2,7 @@
 %basic page
 
 \linespread{1,5}				%Zeilenabstand 1,5mm
-\parindent1cm						%Absatz wird nicht reingerückt
+\parindent0cm						%Absatz wird nicht reingerückt
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}				%Zum Einbinden von externen Grafiken (jpeg,pdf)
@@ -83,7 +83,7 @@ Studiengang: Mechatronik/Fahrzeugmechatronik
 \large{Anhänge:} & \large{zz}\\
 \end{tabular}
 
-\end{titlepage}
+
 \linespread{1.5}
 
 %Aufgabenstellung
@@ -123,16 +123,20 @@ Studiengang: Mechatronik/Fahrzeugmechatronik
 \fancyfoot[L]{\nouppercase{\leftmark}}							%Kapitelbezeichnung Position
 \renewcommand{\chaptermark}[1]{\markboth{\thechapter.~\chaptername: #1}{}}	%Kapitelbezeichnung 
 
-\setcounter{page}{1}
-\pagenumbering{arabic}
 \include{Inhaltsverzeichnis}
+\setcounter{page}{1}
+\pagenumbering{Roman}
 \include{Abkuerzung}
 \include{Symbolverzeichnis}
 \include{Abbildungsverzeichnis}
-\include{Einleitung}
-\include{Oktober}
-\include{WebVisu}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+{\inputencoding{latin1}\input{Einleitung.tex}}
+{\inputencoding{latin1}\input{Oktober.tex}}
+{\inputencoding{latin1}\input{WebVisu.tex}}
+{\inputencoding{latin1}\input{Fazit.tex}}
+{\inputencoding{latin1}\input{Anhang.tex}}
+{\inputencoding{latin1}\input{EidesstattlicheErklarung.tex}}
 
-\include{EidesstattlicheErklarung}
 
 \end{document}
