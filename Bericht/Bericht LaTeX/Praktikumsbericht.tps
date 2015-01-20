@@ -14,11 +14,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=WebVisu.tex
+Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
-TopLine=20
-Cursor=2218
+TopLine=60
+Cursor=2015
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Sperrvermerk.tex
+Document=Einleitung.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=0
+Cursor=1626
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Praktikumsbericht.tex
+Document=WebVisu.tex
 
 [Frame2_View0,0]
-TopLine=5
-Cursor=384
+TopLine=3
+Cursor=2176
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Inhaltsverzeichnis.tex
+Document=Oktober.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=162
+Cursor=1136
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Abkuerzung.tex
+Document=Sperrvermerk.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=367
+Cursor=0
 
 [Frame5]
 Flags=0
@@ -104,11 +104,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Symbolverzeichnis.tex
+Document=Inhaltsverzeichnis.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=293
+Cursor=162
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Abbildungsverzeichnis.tex
+Document=Abkuerzung.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=143
+Cursor=219
 
 [Frame7]
 Flags=0
@@ -140,11 +140,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Einleitung.tex
+Document=Symbolverzeichnis.tex
 
 [Frame7_View0,0]
 TopLine=0
-Cursor=1712
+Cursor=199
 
 [Frame8]
 Flags=0
@@ -158,11 +158,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Oktober.tex
+Document=Abbildungsverzeichnis.tex
 
 [Frame8_View0,0]
 TopLine=0
-Cursor=1076
+Cursor=122
 
 [Frame9]
 Flags=0
@@ -180,7 +180,7 @@ Document=Fazit.tex
 
 [Frame9_View0,0]
 TopLine=0
-Cursor=217
+Cursor=121
 
 [Frame10]
 Flags=0

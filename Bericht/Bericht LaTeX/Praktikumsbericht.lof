@@ -1,7 +1,14 @@
 \select@language {ngerman}
 \select@language {ngerman}
-\contentsline {figure}{\numberline {0.0.1}{\ignorespaces Logo Belectric\relax }}{2}{figure.caption.10}
-\contentsline {figure}{\numberline {0.0.2}{\ignorespaces Logo Adensis\relax }}{2}{figure.caption.11}
-\contentsline {figure}{\numberline {0.7.1}{\ignorespaces Liste Anlagenbl\"ocke\relax }}{6}{figure.caption.14}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bezeichnung der linken Grafik}}}{6}{figure.caption.14}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bezeichnung der rechte Grafik}}}{6}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.0.1}{\ignorespaces Logo Belectric\relax }}{2}{figure.caption.7}
+\contentsline {figure}{\numberline {1.0.2}{\ignorespaces Logo Adensis\relax }}{2}{figure.caption.8}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces Login-Seite\relax }}{6}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2.2}{\ignorespaces Liste mit L\"ander und Anlagen\relax }}{7}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vor dem Klick}}}{7}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Nach dem Klick}}}{7}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3.1}{\ignorespaces Login-Seite mit Bootstrap\relax }}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3.2}{\ignorespaces Liste mit Amerika\relax }}{8}{figure.caption.12}
+\addvspace {10\p@ }

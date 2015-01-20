@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  19 JAN 2015 16:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  20 JAN 2015 14:13
 entering extended mode
 **Einleitung.tex
 ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Einleitung.tex"
@@ -6,7 +6,7 @@ LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            *{Einleitung}\thispagestyle{fancy}\markboth{Einleitung}{}
+            {Einleitung}\thispagestyle{fancy}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -20,12 +20,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \chapter*
-             {Einleitung}\thispagestyle{fancy}\markboth{Einleitung}{}
+l.1 \chapter{E
+              inleitung}\thispagestyle{fancy}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no * in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -39,8 +38,8 @@ Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.1 \chapter*{Einleitung}\thispagestyle{fancy}
-                                              \markboth{Einleitung}{}
+l.1 \chapter{Einleitung}\thispagestyle{fancy}
+                                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -48,12 +47,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
-[]
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[] 
  []
 
 ! Undefined control sequence.
-l.4 \large
+l.3 \Large
            {Die Firma Belectric GmbH wurde im 2001 gegründet und hat sein St...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -68,7 +67,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \large {D
+l.3 \Large {D
              ie Firma Belectric GmbH wurde im 2001 gegründet und hat sein St...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1410,7 +1409,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 4--7
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--6
 []
  []
 
@@ -1561,7 +1560,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \begin{figure}
+l.18 \begin{figure}
                    [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1574,7 +1573,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \begin{figure}[
+l.18 \begin{figure}[
                     htbp]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1586,7 +1585,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.19      \includegraphics
+l.20      \includegraphics
                           [width=0.6\textwidth]{images/adensis_logo.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1607,7 +1606,7 @@ Missing character: There is no 6 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.19      \includegraphics[width=0.6\textwidth]
+l.20      \includegraphics[width=0.6\textwidth]
                                                {images/adensis_logo.jpg}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1616,7 +1615,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.19      \includegraphics[width=0.6\textwidth]
+l.20      \includegraphics[width=0.6\textwidth]
                                                {images/adensis_logo.jpg}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1643,17 +1642,17 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.19 ...phics[width=0.6\textwidth]{images/adensis_
+l.20 ...phics[width=0.6\textwidth]{images/adensis_
                                                   logo.jpg}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
+(Font)              <5> on input line 20.
 ! Extra }, or forgotten $.
-l.19 ...th=0.6\textwidth]{images/adensis_logo.jpg}
+l.20 ...th=0.6\textwidth]{images/adensis_logo.jpg}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1668,7 +1667,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20   \caption
+l.21   \caption
                {Logo Adensis}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1680,7 +1679,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \end{figure}
+l.23 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1689,7 +1688,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 \end{figure}
+l.23 \end{figure}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1700,7 +1699,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.22 \end{figure}
+l.23 \end{figure}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)

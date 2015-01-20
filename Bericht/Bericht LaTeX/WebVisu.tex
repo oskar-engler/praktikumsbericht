@@ -1,9 +1,8 @@
-\chapter*{Web-Visualisierung}\thispagestyle{fancy}\markboth{Web-Visualisierung}{}
-\addcontentsline{toc}{chapter}{Web-Visualisierung}
+\chapter{Web-Visualisierung}\thispagestyle{fancy}
 
-\section{Besprechung mit Kollegen über Inhalt/Design}
+\section{Arbeitsverteilung/ Zielstellung}
 
-\large
+\Large
 {Ab November soll ein neues Projekt entstehen, welches das Ziel hat, einige gemessene und gesendete Daten einer Kraftwerk, mittels eine Website  visualisieren. Am Anfang war das Projekt-Zielstellung besprochen worden. In diese Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebete Systeme soll einen Apache Server mit PHP installieren und eine postgreSQL Datenbank, wo alle Werten aus eine Kraftwerk gespeichert werden, erstellen. Mir war die Visualisierung von diese Daten zugeordnet. Die visualisierte Daten sollen in einer Website dargestellt werden. \\
 Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Es war festgelegt, welche Daten zu visualisieren geeignet sind. Es war auch besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks, jQuery und dazugehörige Software für die Bearbeitung.}
 
@@ -14,45 +13,69 @@ Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visual
 % definieren was wird visualisiert, Was ist unsere ziel? (genauer definieren) = Daten eine Kraftwerk übersichtlich darstellen und im Diagrammen anzeigen\\
 
 
+\section{Konzipierung}
 
-
-\section{Konzept für die Oberfläche mittels Skizzen und grafischer Software}
-
-\Large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite \ref{Anlagenblocke} und für die Seite, wo die jeweiligen Anlagen angezeigt werden, gemacht habe. Der Schwerpunkt war die jeweilige Elementen, wie Tabellen, Diagrammen und andere, übersichtlich und in eine vereinfachte Form darstellen. Es war auch gebraucht einen Konzept für die Seite mit eine Auswahl von Länder zu entwickeln. Da ist meine Abteilung auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann.}
+\Large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht habe. Es war auch gebraucht einen Konzept für die Seite mit eine Auswahl von Länder zu entwickeln. Da ist meine Abteilung auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
 
 % Mittels grafischer Soft und Papier habe ich zu erst Konzepte für die Website erstellt, Ideen wie es aussehen soll, dann wieder besprechen
-% Interface, wie soll die Seite aussehen = Tabellen, Reports, Fehlern, Diagramme, Menü-Auswahl Liste mit Modulen, Auswahl von Ländern, Kraftwerken\\
+
+% Interface, wie soll die Seite aussehen = Tabellen, Reports, Fehlern, Diagramme, Menü-Auswahl Liste mit Modulen, Auswahl von Ländern, Kraftwerken
+
+\vspace{0,5cm}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.7\textwidth]{images/start_login.jpg}
+		\caption{Login-Seite}
+		\label{login_seite}
+\end{figure}
+
+\vspace{0,5cm}
 
 \begin{figure}[htbp]
   \centering
-     \subfigure[Bezeichnung der linken Grafik]{\includegraphics[width=0.4\textwidth]{images/Liste_Kontinente.PNG}}
+     \subfigure[Vor dem Klick]{\includegraphics[width=0.4\textwidth]{images/Liste_Kontinente.PNG}}
 			\hspace{1cm}
-		 \subfigure[Bezeichnung der rechte Grafik]{\includegraphics[width=0.4\textwidth]{images/Liste_Anlagenblocke.PNG}}
-	\caption{Liste Anlagenblöcke}
+		 \subfigure[Nach dem Klick]{\includegraphics[width=0.4\textwidth]{images/Liste_Anlagenblocke.PNG}}
+	\caption{Liste mit Länder und Anlagen}
   \label{Anlagenblocke}
 \end{figure}
 
-\section{Nutzen von Bootstrap Frameworks, HTML, CSS für die Visualisierungen}
+\section{Website - Entwicklung}
 
-\Large{Mit Website-Tools, Sprachen, Frameworks habe ich erste Konzepte realisiert und die Elementen dargestellt}
-
-
-% Key-Components: mit welchen Mitteln die Daten visualisieren = Bootstrap, JS, jQuery und andere\\
+\Large{Nächste Aufgabe war, die entwickelte Konzepte in statisches HTML mit CSS und Javascript umzusetzen. Unser Team hat abgesprochen, dass wir für die Website Entwicklung das Bootstrap Frameworks benutzen werden. Das hat sehr viele Vorteile, als beim Null zu starten. Erstens ist das Bootstrap auch für kommerzielle Benutzung kostenlos, zweitens es beschleunigt die Arbeit, weil es sozusagen schon die CSS-Programmierung gemacht hat und wir nutzen nur die vorkonfiguriertes CSS Style für die jeweiligen HTML Elementen und drittens Bootstrap bietet sehr kompatible und responsive Design, das heißt, dass die Seite auch für alle Browsers sowie Handys und Tabletts optimiert ist. Für Programmieren habe ich das Software Sublime Text benutzt.\\
+Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \ref{login_seite_boot}), eine einfache HTML Seite mit Belectric Logo, Anmeldungsfelder und einen Button 'Sign In'.\\}
 
 
-\section{Mittels FTP die Seite online stellen}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{images/login_seite_boot.png}
+		\caption{Login-Seite mit Bootstrap}
+		\label{login_seite_boot}
+\end{figure}
+
+
+\Large{Es wird danach der Konzept der Auswahl-Liste mittels HTML und Bootstrap realisiert. Mit dem Bootstrap kann man schnell die Liste erstellen und auch die Breite jedes Listenelement mit HTML \textbf{class}-en einstellen. Dafür dient sogenannte Grid System, welchen Bootstrap entwickelt hat. Es funktioniert so, dass die Breite einen erstellten \textbf{div} mit \textbf{collums} mit unterschiedliche Große einstellbar ist. Mit der maximale Breite 13 wird es so geschrieben: \textbf{col-lg-13} bzw. \textbf{col-sm-13}. Das, was in diesem \textbf{div} dargestellt wird, wird sich auch über die ganze Breite der Seite strecken.\\
+In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen \textbf{col-lg-offset-1} für die untergeordnete Liste mit Länder, damit die um einen col-1 verschoben wird.\\}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1\textwidth]{images/html_list_kontinente.png}
+		\caption{Liste mit Amerika}
+		\label{html_list_kontinente}
+\end{figure}
+
+\section{Website online machen}
 
 \Large{Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist}
 
-
-
-\section{Mit SQL Database arbeiten und Meta-Datenbanken erstellen}
+\section{Die postgreSQL-Datenbank}
 
 \Large{Verbinden von Daten aus SQL, Meta-Datenbank erstellt, welche die Allgemeine Infos und Daten zu Kraftwerk beinhaltet, Einen System erstellt und die Datenbank über SQL Sprache erstellt}
 
 
 
-\section{Mit JS, jQuery, PHP dynamische Umsetzung und SQL Datenbanken verbinden}
+\section{Dynamische Umsetzung (PHP)}
 
 \Large{Eine Dynamische Umsetzung erfolgt mittels PHP und andere.. es ist wichtig, dass die Seite dynamisch funktioniert, dass es automatisiert ist und wenn wir die SQL erweitern dann wird es automatisch im Website angezeigt}
 
@@ -60,7 +83,7 @@ Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visual
 
 
 
-\section{Mit Hilfe von Diagramm-Bibliotheken die Daten aus Datenbanken visualisieren}
+\section{Daten Visualisieren}
 
 \Large{Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die Open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
 
