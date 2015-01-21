@@ -1,14 +1,19 @@
 \select@language {ngerman}
 \select@language {ngerman}
+\contentsline {figure}{\numberline {0.0.1}{\ignorespaces Logo Belectric\relax }}{1}{figure.caption.8}
+\contentsline {figure}{\numberline {0.0.2}{\ignorespaces Logo Adensis\relax }}{1}{figure.caption.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.0.1}{\ignorespaces Logo Belectric\relax }}{2}{figure.caption.7}
-\contentsline {figure}{\numberline {1.0.2}{\ignorespaces Logo Adensis\relax }}{2}{figure.caption.8}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.2.1}{\ignorespaces Login-Seite\relax }}{6}{figure.caption.9}
-\contentsline {figure}{\numberline {3.2.2}{\ignorespaces Liste mit L\"ander und Anlagen\relax }}{7}{figure.caption.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vor dem Klick}}}{7}{figure.caption.10}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Nach dem Klick}}}{7}{figure.caption.10}
-\contentsline {figure}{\numberline {3.3.1}{\ignorespaces Login-Seite mit Bootstrap\relax }}{8}{figure.caption.11}
-\contentsline {figure}{\numberline {3.3.2}{\ignorespaces Liste mit Amerika\relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces Login-Seite\relax }}{5}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2.2}{\ignorespaces Liste mit L\"ander und Anlagen\relax }}{5}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vor dem Klick}}}{5}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Nach dem Klick}}}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3.1}{\ignorespaces Login-Seite mit Bootstrap\relax }}{6}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3.2}{\ignorespaces Liste mit Amerika\relax }}{7}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HTML - Quellcode}}}{7}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Ansicht im Browser}}}{7}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3.3}{\ignorespaces Liste mit Deutschlands Kraftwerken\relax }}{8}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3.4}{\ignorespaces jQuery Skript f\"ur \"offnen von Amerika Kontinent Liste\relax }}{8}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3.5}{\ignorespaces jQuery Leaflet Karte mit Pointer Beispielen\relax }}{9}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3.6}{\ignorespaces Die Karte im Seite mit neuen Layout\relax }}{9}{figure.caption.17}
 \addvspace {10\p@ }

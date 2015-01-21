@@ -2,8 +2,8 @@
 
 \section{Arbeitsverteilung/ Zielstellung}
 
-\Large
-{Ab November soll ein neues Projekt entstehen, welches das Ziel hat, einige gemessene und gesendete Daten einer Kraftwerk, mittels eine Website  visualisieren. Am Anfang war das Projekt-Zielstellung besprochen worden. In diese Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebete Systeme soll einen Apache Server mit PHP installieren und eine postgreSQL Datenbank, wo alle Werten aus eine Kraftwerk gespeichert werden, erstellen. Mir war die Visualisierung von diese Daten zugeordnet. Die visualisierte Daten sollen in einer Website dargestellt werden. \\
+\large
+{Ab November soll ein neues Projekt entstehen, welches das Ziel hat, einige gemessene und gesendete Daten einer Kraftwerk auf eine Website mittels Diagrammen bzw. Tabellen visualisieren. Am Anfang war das Projekt-Zielstellung besprochen worden. In diese Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebete Systeme soll einen Apache Server mit PHP installieren und eine postgreSQL Datenbank, wo alle Werten aus eine Kraftwerk gespeichert werden, erstellen. Mir war die Visualisierung von die Daten aus SQL zugeordnet. Die visualisierte Daten sollen in einer Website dargestellt werden. \\
 Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Es war festgelegt, welche Daten zu visualisieren geeignet sind. Es war auch besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks, jQuery und dazugehörige Software für die Bearbeitung.}
 
 % erstmals einen Projekt Plan erstellt, Besprechung\\
@@ -15,7 +15,7 @@ Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visual
 
 \section{Konzipierung}
 
-\Large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht habe. Es war auch gebraucht einen Konzept für die Seite mit eine Auswahl von Länder zu entwickeln. Da ist meine Abteilung auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
+\large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht habe. Es war auch gebraucht einen Konzept für die Seite mit eine Auswahl von Länder zu entwickeln. Da ist meine Abteilung auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
 
 % Mittels grafischer Soft und Papier habe ich zu erst Konzepte für die Website erstellt, Ideen wie es aussehen soll, dann wieder besprechen
 
@@ -43,7 +43,7 @@ Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visual
 
 \section{Website - Entwicklung}
 
-\Large{Nächste Aufgabe war, die entwickelte Konzepte in statisches HTML mit CSS und Javascript umzusetzen. Unser Team hat abgesprochen, dass wir für die Website Entwicklung das Bootstrap Frameworks benutzen werden. Das hat sehr viele Vorteile, als beim Null zu starten. Erstens ist das Bootstrap auch für kommerzielle Benutzung kostenlos, zweitens es beschleunigt die Arbeit, weil es sozusagen schon die CSS-Programmierung gemacht hat und wir nutzen nur die vorkonfiguriertes CSS Style für die jeweiligen HTML Elementen und drittens Bootstrap bietet sehr kompatible und responsive Design, das heißt, dass die Seite auch für alle Browsers sowie Handys und Tabletts optimiert ist. Für Programmieren habe ich das Software Sublime Text benutzt.\\
+\large{Nächste Aufgabe war, die entwickelte Konzepte in statisches HTML mit CSS und Javascript umzusetzen. Unser Team hat abgesprochen, dass wir für die Website Entwicklung das Bootstrap Frameworks\footnote{Bootstrap ist ein freies und sehr häufig verwendetes CSS-Framework. Es enthält auf HTML und CSS basierende Gestaltungsvorlagen für Typografie, Formulare, Buttons, Tabellen, Grid-System, Navigations- und andere Oberflächengestaltungselemente sowie zusätzliche, optionale JavaScript-Erweiterungen.} benutzen werden. Das hat sehr viele Vorteile, als beim Null zu starten. Erstens ist das Bootstrap auch für kommerzielle Benutzung kostenlos, zweitens es beschleunigt die Arbeit, weil es sozusagen schon die CSS-Programmierung gemacht hat und wir nutzen nur die vorkonfiguriertes CSS Style für die jeweiligen HTML Elementen und drittens Bootstrap bietet sehr kompatible und responsive Design, das heißt, dass die Seite auch für alle Browsers sowie Handys und Tabletts optimiert ist. Für Programmieren habe ich das Software Sublime Text benutzt.\\
 Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \ref{login_seite_boot}), eine einfache HTML Seite mit Belectric Logo, Anmeldungsfelder und einen Button 'Sign In'.\\}
 
 
@@ -55,29 +55,71 @@ Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \re
 \end{figure}
 
 
-\Large{Es wird danach der Konzept der Auswahl-Liste mittels HTML und Bootstrap realisiert. Mit dem Bootstrap kann man schnell die Liste erstellen und auch die Breite jedes Listenelement mit HTML \textbf{class}-en einstellen. Dafür dient sogenannte Grid System, welchen Bootstrap entwickelt hat. Es funktioniert so, dass die Breite einen erstellten \textbf{div} mit \textbf{collums} mit unterschiedliche Große einstellbar ist. Mit der maximale Breite 13 wird es so geschrieben: \textbf{col-lg-13} bzw. \textbf{col-sm-13}. Das, was in diesem \textbf{div} dargestellt wird, wird sich auch über die ganze Breite der Seite strecken.\\
-In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen \textbf{col-lg-offset-1} für die untergeordnete Liste mit Länder, damit die um einen col-1 verschoben wird.\\}
+\large{Es wird danach der Konzept der Auswahl-Liste mittels HTML und Bootstrap realisiert. Mit dem Bootstrap kann man schnell die Liste erstellen und auch die Breite jedes Listenelement mit HTML \textbf{class}-en einstellen. Dafür dient sogenannte Grid System, welchen Bootstrap entwickelt hat. Es funktioniert so, dass die Breite einen erstellten \textbf{div} mit \textbf{collums} mit unterschiedliche Große einstellbar ist. Mit der maximale Breite 13 wird es so geschrieben: \textbf{col-lg-13} bzw. \textbf{col-sm-13}. Das, was in diesem \textbf{div} dargestellt wird, wird sich auch über die ganze Breite der Seite strecken.\\
+In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen \textbf{col-lg-offset-1} für die untergeordnete Liste mit Länder (siehe Abbildung \ref{html_list_kontinente}), damit die um einen col-1 verschoben werden. Mit diesem Fortgang sind auch weitere Liste entstanden.}
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=1\textwidth]{images/html_list_kontinente.png}
+		    \subfigure[HTML - Quellcode]{\includegraphics[width=0.75\textwidth]{images/html_list_kontinente.png}}
+				\subfigure[Ansicht im Browser]{\includegraphics[width=0.23\textwidth]{images/List_Kontinente_amerika.png}}
 		\caption{Liste mit Amerika}
 		\label{html_list_kontinente}
 \end{figure}
 
+\large{Es wurde gebraucht, dass die wichtige Informationen nach dem Anklicken eines Kraftwerkes angezeigt werden. Das war mit HTML Tabelle umgesetzt. Man muss die Zeilen und Spalten definieren und alles in einen \textbf{div} reinlegen. Man muss darauf achten, dass die jeweiligen Tabellen den jeweiligen Listenelementen untergeordnet sind. Die HTML \textbf{table} ist auch von den Bootstrap stilisiert und verhält sich responsive. Dass es mit Bootstrap CSS funktioniert, muss man in den \textbf{class} derjenige Tabellen die richtigen Class-Namen für das Verhalten dieser HTML Element eingeben. In meinen Fall wurden die Klassen [\textbf{class="'table-responsive table table-bordered"'}] benutzt (siehe Abbildung \ref{List_Kontinente_Europa_Germany}). Über CSS habe ich noch Farben zu Unterscheidung eingestellt und Effekte wie, wenn man über die Listenelementen mit dem Cursor übergeht, bekommt der Element eine andere Farbe.}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=1\textwidth]{images/List_Kontinente_Europa_Germany.png}
+		\caption{Liste mit Deutschlands Kraftwerken}
+		\label{List_Kontinente_Europa_Germany}
+\end{figure}
+
+\large{Damit die jeweiligen Listenelementen nach dem Klick immer noch auf eine Seite geöffnet werden, habe ich einen 
+jQuery \footnote{jQuery (auch: jQuery Core) ist eine freie JavaScript-Bibliothek, die Funktionen zur DOM-Navigation und -Manipulation zur Verfügung stellt. Die von John Resig entwickelte Bibliothek wurde im Januar 2006 auf dem BarCamp (NYC) in New York veröffentlicht und wird laufend weiterentwickelt.}
+Skript entwickelt. Mein Ziel war, dass beim Anklicken das untergeordnete Listenelement bzw. Tabelle nach unten rutschen wird. Die jQuery anbietet solche Funktion: \textbf{slideToggle}, welche meine Absicht entspricht. Man muss definieren, welche Elemente diese Funktion vornehmen sollen (Siehe Abbildung \ref{jQuery_america_slide}). Die HTML Elementen müssen mit IDs oder Klassen verbunden sein. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{images/jQuery_america_slide.png}
+		\caption{jQuery Skript für öffnen von Amerika Kontinent Liste}
+		\label{jQuery_america_slide}
+\end{figure}
+
+% Version before sb-admin-2 im Anhang includen und hier referieren
+%-----------------------------------------------------------------
+
+\large{Dass wir einen festen Design/Layout brauchen, der auch für den Benutzer angenehmer wird, haben wir uns entscheidet, dass ich die Seite mit dem \textbf{sb-admin-2} umbauen soll. Es handelt sich um einen Template\footnote{Eine Schablone oder Muster mit vorgemachten Design und Layout eine Seite.} für Bootstrap. Es hat vorgegebenen Layout-Elemente wie Navigationsleiste und responsive Seitenmenü. Wir nutzen dies für das Umbauen der Seite. Damit bekommen wir  einen festen Design und Layout. Die Login Seite ist geblieben und die anderen Seiten waren in das Template implementiert.\\ Als erste habe ich, das Idee mit Karte und Auswahl von Kraftwerken aus jeweiligen Länder mit Pointers umgesetzt. Dazu war eine Javascript-Bibliothek und Open-Source Karten gebraucht. Für unsere Fall war die Javascript Bibliothek \textbf{Leaflet} Lösung. Es ist leicht anwendbar und auch responsive. Damit es funktionieren kann, braucht man eine Karte-Ebene und die Lagekoordinaten. Dann wird ein Skript zum anzeigen dieser Karte geschrieben (Siehe Abbildung \ref{leaflet_map}). Der Skript wird im einen \textbf{div} eingefügt und so können wir definieren, wo die Karte angezeigt wird. Im Browser sieht es wie im Abbildung \ref{new_karte_auswahl} aus.\\}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{images/leaflet_map.png}
+		\caption{jQuery Leaflet Karte mit Pointer Beispielen}
+		\label{leaflet_map}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.9\textwidth]{images/new_karte_auswahl.png}
+		\caption{Die Karte im Seite mit neuen Layout}
+		\label{new_karte_auswahl}
+\end{figure}
+
+\large{Nach dem Auswahl einer Kraftwerk kommt man auf neue Seite, sogenannte Dashboard, wo sich alle allgemeine und wichtige Information bzw. Daten befinden werden. Unsere Dashboard sollte so aussehen, dass der Benutzer die Statusmeldungen und paar Diagrammen auf den ersten Blick sieht. Das erfolgt mittels Panels, Statusleisten und andere HTML Elementen, welche im sb-admin-2 schon einen CSS-Still haben.\\}
+
 \section{Website online machen}
 
-\Large{Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist}
+\large{Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist}
 
 \section{Die postgreSQL-Datenbank}
 
-\Large{Verbinden von Daten aus SQL, Meta-Datenbank erstellt, welche die Allgemeine Infos und Daten zu Kraftwerk beinhaltet, Einen System erstellt und die Datenbank über SQL Sprache erstellt}
+\large{Verbinden von Daten aus SQL, Meta-Datenbank erstellt, welche die Allgemeine Infos und Daten zu Kraftwerk beinhaltet, Einen System erstellt und die Datenbank über SQL Sprache erstellt}
 
 
 
 \section{Dynamische Umsetzung (PHP)}
 
-\Large{Eine Dynamische Umsetzung erfolgt mittels PHP und andere.. es ist wichtig, dass die Seite dynamisch funktioniert, dass es automatisiert ist und wenn wir die SQL erweitern dann wird es automatisch im Website angezeigt}
+\large{Eine Dynamische Umsetzung erfolgt mittels PHP und andere.. es ist wichtig, dass die Seite dynamisch funktioniert, dass es automatisiert ist und wenn wir die SQL erweitern dann wird es automatisch im Website angezeigt}
 
 % Key-Features: die Ajax Abfragen - aktualisieren von Daten, Daten aus der EBU, WR, BMS, Pool und evtl. noch weiteren visualisieren\\
 
@@ -85,6 +127,6 @@ In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen 
 
 \section{Daten Visualisieren}
 
-\Large{Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die Open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
+\large{Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die Open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
 
 % Charts-Plattform, welche Diagramm-Bibliothek benutzen wir? = meine Aufgabe war eine Auswahl von Charts machen, den besten finden und lernen damit die Daten visualisieren\\

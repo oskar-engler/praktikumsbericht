@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
-TopLine=60
-Cursor=2015
+TopLine=74
+Cursor=3451
 
 [Frame1]
 Flags=0
@@ -36,7 +36,7 @@ Document=Einleitung.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=1626
+Cursor=1974
 
 [Frame2]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame2_View0,0]
-TopLine=3
-Cursor=2176
+TopLine=129
+Cursor=9747
 
 [Frame3]
 Flags=0
@@ -72,7 +72,7 @@ Document=Oktober.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=1136
+Cursor=885
 
 [Frame4]
 Flags=0
@@ -90,7 +90,7 @@ Document=Sperrvermerk.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=0
+Cursor=69
 
 [Frame5]
 Flags=0
@@ -180,7 +180,7 @@ Document=Fazit.tex
 
 [Frame9_View0,0]
 TopLine=0
-Cursor=121
+Cursor=65
 
 [Frame10]
 Flags=0
@@ -216,9 +216,9 @@ Document=EidesstattlicheErklarung.tex
 
 [Frame11_View0,0]
 TopLine=0
-Cursor=682
+Cursor=251
 
 [SessionInfo]
 FrameCount=12
-ActiveFrame=0
+ActiveFrame=3
 
