@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
-TopLine=74
-Cursor=3451
+TopLine=93
+Cursor=4090
 
 [Frame1]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame2_View0,0]
-TopLine=129
-Cursor=9747
+TopLine=201
+Cursor=15992
 
 [Frame3]
 Flags=0
@@ -72,7 +72,7 @@ Document=Oktober.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=885
+Cursor=181
 
 [Frame4]
 Flags=0
@@ -90,7 +90,7 @@ Document=Sperrvermerk.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=69
+Cursor=70
 
 [Frame5]
 Flags=0
@@ -126,7 +126,7 @@ Document=Abkuerzung.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=219
+Cursor=109
 
 [Frame7]
 Flags=0
@@ -220,5 +220,5 @@ Cursor=251
 
 [SessionInfo]
 FrameCount=12
-ActiveFrame=3
+ActiveFrame=0
 

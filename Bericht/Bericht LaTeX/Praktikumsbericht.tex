@@ -9,7 +9,6 @@
 \usepackage{a4wide}					%Ausnutzen der ganzen Blattbreite
 \usepackage{fancyhdr} 			%Package für Kopf- und Fusszeile
 \usepackage[ngerman]{babel}	%Rechtschreibung
-\usepackage{hyperref}				%Einfügen von Weblinks
 \usepackage{amsmath}				%Paket für mathematische Formeln
 \usepackage{amsfonts}				%zusätzliche mathematische Zeichen
 \usepackage{amssymb}				%zusätzliche mathematische Symbole
@@ -34,7 +33,7 @@
 %\usepackage[a4paper]{geometry}       % Querformat einer Seite
 \usepackage{pdfpages}       % Einfügen von ganzen PDF-Seiten
 \usepackage{array}
-
+\usepackage{hyperref}				%Einfügen von Weblinks
 %================================================================================
 
 %% definieren einer neuen Tabelle mit automatischen Umbruch
@@ -45,7 +44,7 @@
 %================================================================================
 
 
-\begin{document}
+\begin{document}\thispagestyle{empty}
 
 %Titelseite
 %--------------------------------------------------------------------------------
@@ -105,6 +104,7 @@ Studiengang: Mechatronik/Fahrzeugmechatronik
 
 \pagenumbering{Roman}
 \include{Sperrvermerk}
+\include{Inhaltsverzeichnis}
 
 %Kopfzeile
 %-------------------------------------------------------------------------------- \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
@@ -123,8 +123,7 @@ Studiengang: Mechatronik/Fahrzeugmechatronik
 \fancyfoot[L]{\nouppercase{\leftmark}}							%Kapitelbezeichnung Position
 \renewcommand{\chaptermark}[1]{\markboth{\thechapter.~\chaptername: #1}{}}	%Kapitelbezeichnung 
 
-\include{Inhaltsverzeichnis}
-\setcounter{page}{1}
+\setcounter{page}{2}
 \pagenumbering{Roman}
 \include{Abkuerzung}
 \include{Symbolverzeichnis}
