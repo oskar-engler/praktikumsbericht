@@ -6,16 +6,16 @@
 {Ab November soll ein neues Projekt entstehen, welches das Ziel hat, einige gemessene und gesendete Daten einer Kraftwerk auf eine Website mittels Diagrammen bzw. Tabellen visualisieren. Am Anfang war das Projekt-Zielstellung besprochen worden. In diese Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebete Systeme soll einen Apache Server mit PHP installieren und eine postgreSQL Datenbank, wo alle Werten aus eine Kraftwerk gespeichert werden, erstellen. Mir war die Visualisierung von die Daten aus SQL zugeordnet. Die visualisierte Daten sollen in einer Website dargestellt werden. \\
 Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Es war festgelegt, welche Daten zu visualisieren geeignet sind. Es war auch besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks, jQuery und dazugehörige Software für die Bearbeitung.}
 
-% erstmals einen Projekt Plan erstellt, Besprechung\\
+% erstmals einen Projekt Plan erstellt, Besprechung
 
-% jeweiligen aufgaben verteilen = Eingebete Systeme sollen eine Apache Server mit PHP, ich soll die Website, Design und Konzept entwickeln\\
+% jeweiligen aufgaben verteilen = Eingebete Systeme sollen eine Apache Server mit PHP, ich soll die Website, Design und Konzept entwickeln
 
-% definieren was wird visualisiert, Was ist unsere ziel? (genauer definieren) = Daten eine Kraftwerk übersichtlich darstellen und im Diagrammen anzeigen\\
+% definieren was wird visualisiert, Was ist unsere ziel? (genauer definieren) = Daten eine Kraftwerk übersichtlich darstellen und im Diagrammen anzeigen
 
 
 \section{Konzipierung}
 
-\large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht habe. Es war auch gebraucht einen Konzept für die Seite mit eine Auswahl von Länder zu entwickeln. Da ist meine Abteilung auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
+\large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht habe. Damit die Auswahl der jeweiligen Länder noch übersichtlicher wird, ist unseres Team auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
 
 % Mittels grafischer Soft und Papier habe ich zu erst Konzepte für die Website erstellt, Ideen wie es aussehen soll, dann wieder besprechen
 
@@ -55,8 +55,8 @@ Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \re
 \end{figure}
 
 
-\large{Es wird danach der Konzept der Auswahl-Liste mittels HTML und Bootstrap realisiert. Mit dem Bootstrap kann man schnell die Liste erstellen und auch die Breite jedes Listenelement mit HTML \textbf{class}-en einstellen. Dafür dient sogenannte Grid System, welchen Bootstrap entwickelt hat. Es funktioniert so, dass die Breite einen erstellten \textbf{div} mit \textbf{collums} mit unterschiedliche Große einstellbar ist. Mit der maximale Breite 13 wird es so geschrieben: \textbf{col-lg-13} bzw. \textbf{col-sm-13}. Das, was in diesem \textbf{div} dargestellt wird, wird sich auch über die ganze Breite der Seite strecken.\\
-In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen \textbf{col-lg-offset-1} für die untergeordnete Liste mit Länder (siehe Abbildung \ref{html_list_kontinente}), damit die um einen col-1 verschoben werden. Mit diesem Fortgang sind auch weitere Liste entstanden.}
+\large{Es wird danach der Konzept der Auswahl-Liste mittels HTML und Bootstrap realisiert. Mit dem Bootstrap kann man schnell die Liste erstellen und auch die Breite jedes Listenelement mit HTML \textbf{class}-en einstellen. Dafür dient sogenannte Grid System, welchen Bootstrap entwickelt hat. Es funktioniert so, dass die Breite einen erstellten \textbf{div} mit \textbf{collums} mit unterschiedliche Große einstellbar ist. Mit der maximale Breite 13 wird so geschrieben: \textbf{col-lg-13} bzw. \textbf{col-sm-13}. Das, was in diesem \textbf{div} dargestellt wird, wird sich auch über die ganze Breite der Seite strecken.\\
+In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen \textbf{col-lg-offset-1} für die untergeordnete Liste mit Länder (siehe Abbildung \ref{html_list_kontinente}), damit die um einen col-1 nach rechts verschoben werden. Mit diesem Fortgang sind auch weitere Liste entstanden.}
 
 \begin{figure}[htbp]
 	\centering
@@ -77,7 +77,7 @@ In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen 
 
 \large{Damit die jeweiligen Listenelementen nach dem Klick immer noch auf eine Seite geöffnet werden, habe ich einen 
 jQuery \footnote{jQuery (auch: jQuery Core) ist eine freie JavaScript-Bibliothek, die Funktionen zur DOM-Navigation und -Manipulation zur Verfügung stellt. Die von John Resig entwickelte Bibliothek wurde im Januar 2006 auf dem BarCamp (NYC) in New York veröffentlicht und wird laufend weiterentwickelt.}
-Skript entwickelt. Mein Ziel war, dass beim Anklicken das untergeordnete Listenelement bzw. Tabelle nach unten rutschen wird. Die jQuery anbietet solche Funktion: \textbf{slideToggle}, welche meine Absicht entspricht. Man muss definieren, welche Elemente diese Funktion vornehmen sollen (Siehe Abbildung \ref{jQuery_america_slide}). Die HTML Elementen müssen mit IDs oder Klassen verbunden sein. 
+Skript entwickelt. Mein Ziel war, dass beim Anklicken das untergeordnete Listenelement bzw. Tabelle nach unten rutschen wird. Die jQuery anbietet solche Funktion: \textbf{slideToggle}, welche meine Absicht entspricht. Man muss definieren, welche Elemente diese Funktion vornehmen sollen (Siehe Abbildung \ref{jQuery_america_slide}). Deswegen müssen die HTML Elementen mit IDs oder Klassen verbunden sein. 
 
 \begin{figure}[htbp]
 	\centering
@@ -89,8 +89,8 @@ Skript entwickelt. Mein Ziel war, dass beim Anklicken das untergeordnete Listene
 % Version before sb-admin-2 im Anhang includen und hier referieren
 %-----------------------------------------------------------------
 
-\large{Dass wir einen festen Design/Layout brauchen, der auch für den Benutzer angenehmer wird, haben wir uns entscheidet, dass ich die Seite mit dem \textbf{sb-admin-2} umbauen soll. Es handelt sich um einen Template\footnote{Eine Schablone oder Muster mit vorgemachten Design und Layout eine Seite.} für Bootstrap. Es hat vorgegebenen Layout-Elemente wie Navigationsleiste und responsive Seitenmenü. Wir nutzen dies für das Umbauen der Seite. Damit bekommen wir  einen festen Design und Layout. Die Login Seite ist geblieben und die anderen Seiten waren teilweise in das Template implementiert.\\
-Als erste habe ich, das Idee mit Karte und Auswahl von Kraftwerken aus jeweiligen Länder mit Pointers umgesetzt. Dazu war eine Javascript-Bibliothek und Open-Source Karten gebraucht. Für unsere Fall war die Javascript Bibliothek \textbf{Leaflet} Lösung. Es ist leicht anwendbar und auch responsive. Damit es funktionieren kann, braucht man eine Karte-Ebene und die Lagekoordinaten. Dann wird ein Skript zum anzeigen dieser Karte geschrieben (Siehe Abbildung \ref{leaflet_map}). Der Skript wird im einen \textbf{div} eingefügt und so können wir definieren, wo die Karte angezeigt wird. Im Browser sieht es wie im Abbildung \ref{new_karte_auswahl} aus.\\}
+\large{Dass wir einen festen Design/Layout brauchen, der auch für den Benutzer angenehmer wird, haben wir uns entscheidet, dass ich die Seite mit dem \textbf{sb-admin-2} umbauen soll. Es handelt sich um einen Template\footnote{Eine Schablone oder Muster mit vorgemachten Design und Layout eine Seite.} für Bootstrap. Es hat vorgegebenen Layout-Elemente wie Navigationsleiste und responsive Seitenmenü. Wir nutzen dies für das Umbauen der Seite. Die Login Seite ist geblieben und die anderen Seiten waren teilweise in das Template implementiert.\\
+Als erste habe ich, das Idee mit Karte und Auswahl von Kraftwerken aus jeweiligen Länder mit Pointers umgesetzt. Dazu war eine Javascript-Bibliothek und Open-Source Karten gebraucht. Für unsere Fall war die Javascript Bibliothek \textbf{Leaflet} die Lösung. Es ist leicht anwendbar und auch responsive. Damit es funktionieren kann, braucht man eine Karte-Ebene und die Lagekoordinaten. Dann wird ein Skript zum anzeigen dieser Karte geschrieben (Siehe Abbildung \ref{leaflet_map}). Der Skript wird die Karte ins \textbf{div} eingefügt und so können wir definieren, wo die Karte angezeigt wird. Im Browser sieht es wie im Abbildung \ref{new_karte_auswahl} aus.}
 
 \begin{figure}[htbp]
 	\centering
@@ -106,6 +106,7 @@ Als erste habe ich, das Idee mit Karte und Auswahl von Kraftwerken aus jeweilige
 		\label{new_karte_auswahl}
 \end{figure}
 
+\pagebreak
 \large{Nach dem Auswahl einer Kraftwerk kommt man auf neue Seite, sogenannte Dashboard, wo sich alle wichtige Informationen bzw. Daten befinden. Unsere Dashboard soll so aussehen, dass der Benutzer die Statusmeldungen und paar Diagrammen auf den ersten Blick sieht. Das erfolgt mittels Panels, Statusleisten, Charts (Diagrammen) und andere Elementen. Einige HTML Elementen sind bereit mit sb-admin-2 CSS-stilisiert. Als erste habe ich mit Tabellen gearbeitet (siehe Abbildung \ref{first_sb_admin}), wo die wichtige Kenndaten dargestellt worden. Es wurde ein neues Konzept skizziert und nach der Einigung mit dem Betreuer habe ich es in das Bootstrap umgewandelt (siehe Abbildung \ref{erste_dashboard}).\\
 
 \begin{figure}[htbp]
@@ -148,7 +149,7 @@ Es wird noch die \textbf{collapse} Funktion eingebaut, das beim Anklicken eine z
 		\label{sql_dump}
 \end{figure}
 
-Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zeilen) bzw. Spalten erstellt werden sollen. Im unseren Fall wurden in der Datenbank Tabelle: continents, countries, countrycoordinates für die Karte, ebupowerplants mit Namen und Lagen, ebupowerplantsetups, wo die Modulen definiert werden, locations, modules, modulesname mit Module-Namen, temperature und users (siehe Abbildung \ref{adminer_meta}). Es wurde ein Teil von Tabellen mit Daten ausgefüllt. Die Implementierung wird später mit Hilfe von PHP-Funktion in die Seite automatisch eingefügt.}
+Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zeilen) bzw. Spalten erstellt werden sollen. Im unseren Fall wurden in der Datenbank Tabelle: continents, countries, countrycoordinates für die Karte, ebupowerplants mit Namen und Lagen, ebupowerplantsetups, wo die Modulen definiert werden, locations, modules, modulesname mit Module-Namen, temperature und users (siehe Abbildung \ref{adminer_meta}). Es wurde ein Teil von Tabellen mit Daten ausgefüllt. Die Ausgabe von Daten an die Diagrammen wird später mit Hilfe von PHP-Funktion realisiert. }
 %include anhang sql dump
 
 \begin{figure}[htbp]
@@ -159,8 +160,8 @@ Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zei
 \end{figure}
 
 
-\section{Daten Visualisieren}
-\large{Der nächste Schwerpunkt war eine Javascript oder jQuery Bibliothek finden. Dies soll um die Daten zu visualisieren und das im verschieden Arten von Diagrammen. Die Möglichkeiten wie 'Export Diagramm als Bild', Timeline\footnote{Auswählen einen Zeitabschnitt}, direktes Datum-Auswahl, Zoom, gleichzeitige Vergleichen von mehreren Daten waren meine Vergleichspunkte. Nach dem Untersuchen von mehreren freien oder auch bezahlte Bibliotheken war mit dem Betreuer abgesprochen, dass ich auf der Dashboard und auf andere Modulen-Seite eine einfache Bibliothek: \textbf{dyGraphs} benutze. Die dyGraphs sind einfach, responsive, zoom-fähig und können Daten mittels CSV\footnote{Das Dateiformat CSV steht für englisch Comma-separated values (seltener Character-separated values, da das Trennzeichen nicht zwingend ein Komma sein muss) und beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten. Die Dateinamenserweiterung lautet .csv.}visualisieren (siehe Abbildung \ref{dygraphs_test}). Es war noch abgesprochen das ich einen Link zur neuen Fenster mit Diagramm-Bibliothek \textbf{amstockcharts} machen soll. Die \textbf{amstockcharts} sind für Vergleichen von mehrere Daten, auch im JSON-Form, bestimmt. Man kann auch die Diagrammen exportieren und man hat viele Möglichkeiten, welchen Zeitabschnitt dargestellt sein soll (siehe Abbildung \ref{amstockcharts_test}). 
+\section{Daten Visualisieren - Charts}
+\large{Der nächste Schwerpunkt war eine Javascript oder jQuery Bibliothek finden. Dies soll die Daten visualisieren und das im verschieden Arten von Diagrammen. Die Möglichkeiten wie 'Export Diagramm als Bild', Timeline\footnote{Auswählen einen Zeitabschnitt}, direktes Datum-Auswahl, Zoom, gleichzeitige Vergleichen von mehreren Daten waren meine Vergleichspunkte. Nach dem Untersuchen von mehreren freien oder auch bezahlte Bibliotheken war mit dem Betreuer abgesprochen, dass ich auf der Dashboard und auf andere Modulen-Seite eine einfache Bibliothek: \textbf{dyGraphs} benutze. Die dyGraphs sind einfach, responsive, zoom-fähig und können Daten mittels CSV\footnote{Das Dateiformat CSV steht für englisch Comma-separated values (seltener Character-separated values, da das Trennzeichen nicht zwingend ein Komma sein muss) und beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten. Die Dateinamenserweiterung lautet .csv.}visualisieren (siehe Abbildung \ref{dygraphs_test}). Es war noch abgesprochen, dass ich einen Link zur neuen Fenster mit Diagramm-Bibliothek \textbf{Amstockcharts} machen soll. Die \textbf{Amstockcharts} sind für Vergleichen von mehrere Daten bestimmt. Man kann auch die Diagrammen exportieren und man hat viele Möglichkeiten, welchen Zeitabschnitt dargestellt sein soll (siehe Abbildung \ref{amstockcharts_test}). 
 
 \begin{figure}[htbp]
 	\centering
@@ -176,19 +177,32 @@ Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zei
 		\label{amstockcharts_test}
 \end{figure}
 
-\large{Bei der Programmierung der Javascript für die Diagrammen muss man richtig die Quelle der Daten einstellen. Es ist erforderlich, dass die Einstellungen wie Achsen, Beschriftungen, Export-Option und weitere in den Javascript eingestellt werden.}
+\large{Bei der Programmierung der Javascript den Diagrammen muss man richtig die Quelle der Daten einstellen. Es ist erforderlich, dass die Einstellungen wie Achsen, Beschriftungen, Export-Option und weitere in den Javascript eingestellt werden. Es wurden zwei unterschiedliche Bibliotheken benutzt, dass heißt es wurde mit zwei unterschiedlichen Syntaxen der Script geschrieben. \\
+Bei der \textbf{dyGraphs} ist zu beachten, dass die Daten im Form von CSV sind oder in reines HTML gespeichert sind. In den Optionen kann man Titel, Achsenbeschreibung, Legende, Position der Beschriftung und ob man dann im Browser gleitende Mittelwert der Diagramm einstellen kann (siehe Abbildung \ref{dyGraphs_JS}). Der Diagramm wird in einen definierten \textbf{div} angezeigt. Der \textbf{div} soll eine konkrete Größe haben. Wenn man der Diagramm responsive machen will, muss man in den CSS-Style die Größe statt in Pixels in Prozent eingeben.\\
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.6\textwidth]{images/dyGraphs_JS.png}
+		\caption{dyGraphs Beispiel-Diagramm}
+		\label{dyGraphs_JS}
+\end{figure}
+
+Die Amcharts sind komplexere, größere und reine Javascript Charts-Bibliothek, die man unter bestimmte Bedingungen auch kommerziell benutzen kann. Es gibt auch mehrere Möglichkeiten, wie der Diagramm dargestellt werden kann. Man muss, wie beim dyGraphs, die Quelle der Daten, Beschriftungen, Achseneinstellungen und andere einstellen (siehe Abbildung \ref{amstockcharts_JS}). Die Daten werden in der JSON Format eingeladen. Als der größte Vorteil finde ich, dass die Amcharts die Möglichkeit mehrere Daten zu vergleichen haben. }
 %include JS von charts
+
+\begin{figure}[htbp]
+	\centering
+				\includegraphics[width=0.8\textwidth]{images/amstockcharts_JS.png}
+		\caption{Amstockcharts Beispiel-Diagramm}
+		\label{amstockcharts_JS}
+\end{figure}
 
 
 %Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die Open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
+\pagebreak
 
-% Charts-Plattform, welche Diagramm-Bibliothek benutzen wir? = meine Aufgabe war eine Auswahl von Charts machen, den besten finden und lernen damit die Daten visualisieren\\
-
-\section{Website online machen}
-\large{}
+\section{PHP + Online}
+\large{Der nächste Schwerpunkt war die Umsetzung in PHP. Es war gebraucht, dass die Website dynamisch ist. Mann muss der Quellcode bearbeiten und dort, wo es gebraucht ist, den HTML-Code verändern. Die Seite wird nach der Bearbeitung als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.\\
+Über PHP kann man die SQL zugreifen und somit Daten in die Diagramme einladen. .........}
 %Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist
-
-\section{PHP}
-\large{}
-
 

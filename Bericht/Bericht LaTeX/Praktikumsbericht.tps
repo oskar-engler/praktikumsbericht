@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
-TopLine=93
-Cursor=4090
+TopLine=0
+Cursor=970
 
 [Frame1]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame2_View0,0]
-TopLine=201
-Cursor=15992
+TopLine=0
+Cursor=18610
 
 [Frame3]
 Flags=0
@@ -126,7 +126,7 @@ Document=Abkuerzung.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=109
+Cursor=770
 
 [Frame7]
 Flags=0
@@ -220,5 +220,5 @@ Cursor=251
 
 [SessionInfo]
 FrameCount=12
-ActiveFrame=0
+ActiveFrame=2
 
