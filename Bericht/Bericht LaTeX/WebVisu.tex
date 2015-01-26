@@ -202,7 +202,10 @@ Die Amcharts sind komplexere, größere und reine Javascript Charts-Bibliothek, di
 \pagebreak
 
 \section{PHP + Online}
-\large{Der nächste Schwerpunkt war die Umsetzung in PHP. Es war gebraucht, dass die Website dynamisch ist. Mann muss der Quellcode bearbeiten und dort, wo es gebraucht ist, den HTML-Code verändern. Die Seite wird nach der Bearbeitung als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.\\
-Über PHP kann man die SQL zugreifen und somit Daten in die Diagramme einladen. .........}
+
+\large{Der nächste Schwerpunkt war die Umsetzung in PHP. Es war gebraucht, dass die Website dynamisch ist. Mann muss der Quellcode bearbeiten und dort, wo es gebraucht ist, den HTML-Code verändern. Die Seite wird nach der Bearbeitung als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und dann die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.}
+
+%Über PHP kann man die SQL zugreifen und somit die Daten in die Diagramme einladen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittels \textbf{connect} und in unseren Fall war das \textbf{pg_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg_query} die Daten aus der Datenbank auf eine Variable aufladen. Die Daten werden in eine Form gespeichert, wenn wir die Daten in den Form JSON oder CSV brauchen, müssen wir noch zu den \textbf{pg_query} die Befehlen für das \textbf{encode} hinzuschreiben. Bei der postgreSQL gibt es einen \textbf{encode} für JSON, es heißt: \textbf{json_encode}. Für die CSV gibt es keinen \textbf{encode}, so habe ich eine Funktion mit \textit{umschreiben} in die CSV Form geschrieben.
+
 %Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist
 

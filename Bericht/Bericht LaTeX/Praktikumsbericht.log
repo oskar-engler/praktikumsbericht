@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  23 JAN 2015 14:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  26 JAN 2015 10:57
 entering extended mode
 **Praktikumsbericht.tex
 ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.tex"
@@ -1692,12 +1692,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 204.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 204.
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--208
-
- []
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2014/04/30 v1.2b Input encoding file
 )
 ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Fazit.tex"
@@ -1814,7 +1810,7 @@ fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Praktikumsbericht.pdf (26 pages, 1183944 bytes).
+Output written on Praktikumsbericht.pdf (26 pages, 1183945 bytes).
 PDF statistics:
  394 PDF objects out of 1000 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)

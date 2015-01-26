@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
-TopLine=0
-Cursor=970
+TopLine=15
+Cursor=1721
 
 [Frame1]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame2_View0,0]
-TopLine=0
-Cursor=18610
+TopLine=248
+Cursor=19322
 
 [Frame3]
 Flags=0
