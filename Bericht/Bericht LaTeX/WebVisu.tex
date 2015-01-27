@@ -203,7 +203,26 @@ Die Amcharts sind komplexere, größere und reine Javascript Charts-Bibliothek, di
 
 \section{PHP + Online}
 
-\large{Der nächste Schwerpunkt war die Umsetzung in PHP. Es war gebraucht, dass die Website dynamisch ist. Mann muss der Quellcode bearbeiten und dort, wo es gebraucht ist, den HTML-Code verändern. Die Seite wird nach der Bearbeitung als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und dann die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.}
+\large{Der nächste Schwerpunkt war die Umsetzung in PHP. Es war gebraucht, dass die Website dynamisch ist. Mann muss der Quellcode bearbeiten und dort, wo es gebraucht ist, den HTML-Code verändern. Die Seite wird nach der Bearbeitung als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und dann die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.\\
+Über PHP kann man die SQL zugreifen und somit die Daten in die Diagramme einladen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittles \textbf{connect} und in unseren Fall das \textbf{pg\_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg\_query} die Daten aus der Datenbank auf eine Variable aufladen. Diese Variable wird dann benutzt, um den Diagramm richtigen Weg zur Daten konfigurieren. \\ %includen code von connect und query
+Die Daten werden in eine Form gespeichert, welche die Diagramme nicht verarbeiten können. Das heißt, man muss die Umwandlung in die Form von JSON oder CSV durchführen. Diese sind von Diagrammen akzeptiert. Die Umwandlung in JSON kann man mit \textbf{encode\_json} machen. Für die CSV Form habe ich selbst einen Parser\footnote{Ein Parser ist ein Computerprogramm, das in der Informatik für die Zerlegung und Umwandlung einer beliebigen Eingabe in ein für die Weiterverarbeitung brauchbares Format zuständig ist.} geschrieben (siehe Abbildung \ref{csv_parser}).\\ %siehe include parserCSV 
+Die \textbf{pg\_query} wird nicht nur für die Diagrammen benutzt sondern auch für Menü mit Ländern, Menü mit Modulen eines Kraftwerkes und andere. Über diese \textbf{PHP} Funktionen kann man die Meta-Daten benutzen um dynamische Menüs zu bauen. Wenn zum Beispiel die Kraftwerk in Alt Daber zwei EBUs, zwei Wechselrichter, zwei BMS und einen Pool hat, so wird das auch im Meta-Datenbank gespeichert und auf der Website wird die Menü in diese Konfiguration angezeigt (siehe Abbildung\ref{altdaber_menu_php}). So wird die Seite automatisiert und wenn eine neue Kraftwerk in die SQL hinzugefügt wird, dann wird es auch an die Seite angezeigt.}
+
+\begin{figure}[htbp]
+	\centering
+				\includegraphics[]{images/csv_parser.png}
+		\caption{CSV Parser für die Diagramme}
+		\label{csv_parser}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+				\includegraphics[]{images/altdaber_menu_php.png}
+		\caption{Menü über PHP}
+		\label{altdaber_menu_php}
+\end{figure}
+
+
 
 %Über PHP kann man die SQL zugreifen und somit die Daten in die Diagramme einladen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittels \textbf{connect} und in unseren Fall war das \textbf{pg_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg_query} die Daten aus der Datenbank auf eine Variable aufladen. Die Daten werden in eine Form gespeichert, wenn wir die Daten in den Form JSON oder CSV brauchen, müssen wir noch zu den \textbf{pg_query} die Befehlen für das \textbf{encode} hinzuschreiben. Bei der postgreSQL gibt es einen \textbf{encode} für JSON, es heißt: \textbf{json_encode}. Für die CSV gibt es keinen \textbf{encode}, so habe ich eine Funktion mit \textit{umschreiben} in die CSV Form geschrieben.
 

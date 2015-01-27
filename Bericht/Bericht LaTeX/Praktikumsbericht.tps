@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame0_View0,0]
-TopLine=15
-Cursor=1721
+TopLine=42
+Cursor=811
 
 [Frame1]
 Flags=0
@@ -35,8 +35,8 @@ Class=LaTeXView
 Document=Einleitung.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=1974
+TopLine=3
+Cursor=2242
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=WebVisu.tex
+Document=Oktober.tex
 
 [Frame2_View0,0]
-TopLine=248
-Cursor=19322
+TopLine=0
+Cursor=1067
 
 [Frame3]
 Flags=0
@@ -68,11 +68,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Oktober.tex
+Document=Sperrvermerk.tex
 
 [Frame3_View0,0]
 TopLine=0
-Cursor=181
+Cursor=70
 
 [Frame4]
 Flags=0
@@ -86,11 +86,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Sperrvermerk.tex
+Document=Abkuerzung.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=70
+Cursor=296
 
 [Frame5]
 Flags=0
@@ -104,11 +104,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Inhaltsverzeichnis.tex
+Document=Symbolverzeichnis.tex
 
 [Frame5_View0,0]
 TopLine=0
-Cursor=162
+Cursor=199
 
 [Frame6]
 Flags=0
@@ -122,11 +122,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Abkuerzung.tex
+Document=Abbildungsverzeichnis.tex
 
 [Frame6_View0,0]
 TopLine=0
-Cursor=770
+Cursor=122
 
 [Frame7]
 Flags=0
@@ -140,11 +140,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Symbolverzeichnis.tex
+Document=Fazit.tex
 
 [Frame7_View0,0]
 TopLine=0
-Cursor=199
+Cursor=0
 
 [Frame8]
 Flags=0
@@ -158,11 +158,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Abbildungsverzeichnis.tex
+Document=Anhang.tex
 
 [Frame8_View0,0]
 TopLine=0
-Cursor=122
+Cursor=132
 
 [Frame9]
 Flags=0
@@ -176,11 +176,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Fazit.tex
+Document=EidesstattlicheErklarung.tex
 
 [Frame9_View0,0]
 TopLine=0
-Cursor=65
+Cursor=251
 
 [Frame10]
 Flags=0
@@ -194,11 +194,11 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=Anhang.tex
+Document=WebVisu.tex
 
 [Frame10_View0,0]
-TopLine=0
-Cursor=101
+TopLine=249
+Cursor=20279
 
 [Frame11]
 Flags=0
@@ -212,13 +212,13 @@ NormalPos.top=26
 NormalPos.right=1503
 NormalPos.bottom=656
 Class=LaTeXView
-Document=EidesstattlicheErklarung.tex
+Document=Inhaltsverzeichnis.tex
 
 [Frame11_View0,0]
 TopLine=0
-Cursor=251
+Cursor=0
 
 [SessionInfo]
 FrameCount=12
-ActiveFrame=2
+ActiveFrame=5
 
