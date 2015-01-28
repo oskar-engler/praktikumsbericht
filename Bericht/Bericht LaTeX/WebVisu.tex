@@ -1,25 +1,13 @@
 \chapter{Web-Visualisierung}\thispagestyle{fancy}
 
 \section{Arbeitsverteilung/ Zielstellung}
-
 \large
 {Ab November soll ein neues Projekt entstehen, welches das Ziel hat, einige gemessene und gesendete Daten einer Kraftwerk auf eine Website mittels Diagrammen bzw. Tabellen visualisieren. Am Anfang war das Projekt-Zielstellung besprochen worden. In diese Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebete Systeme soll einen Apache Server mit PHP installieren und eine postgreSQL Datenbank, wo alle Werten aus eine Kraftwerk gespeichert werden, erstellen. Mir war die Visualisierung von die Daten aus SQL zugeordnet. Die visualisierte Daten sollen in einer Website dargestellt werden. \\
 Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Es war festgelegt, welche Daten zu visualisieren geeignet sind. Es war auch besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks, jQuery und dazugehörige Software für die Bearbeitung.}
 
-% erstmals einen Projekt Plan erstellt, Besprechung
-
-% jeweiligen aufgaben verteilen = Eingebete Systeme sollen eine Apache Server mit PHP, ich soll die Website, Design und Konzept entwickeln
-
-% definieren was wird visualisiert, Was ist unsere ziel? (genauer definieren) = Daten eine Kraftwerk übersichtlich darstellen und im Diagrammen anzeigen
-
 
 \section{Konzipierung}
-
 \large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit grafisches Programm GIMP gemacht, wo ich erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht habe. Damit die Auswahl der jeweiligen Länder noch übersichtlicher wird, ist unseres Team auf der Idee gekommen, dass wir eine große Karte mit Zeigers/Pointers in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
-
-% Mittels grafischer Soft und Papier habe ich zu erst Konzepte für die Website erstellt, Ideen wie es aussehen soll, dann wieder besprechen
-
-% Interface, wie soll die Seite aussehen = Tabellen, Reports, Fehlern, Diagramme, Menü-Auswahl Liste mit Modulen, Auswahl von Ländern, Kraftwerken
 
 \vspace{0,5cm}
 
@@ -41,11 +29,10 @@ Die Daten aus einer Kraftwerk sollen übersichtlich und mittels Diagrammen visual
   \label{Anlagenblocke}
 \end{figure}
 
-\section{Website - Entwicklung}
 
+\section{Website - Entwicklung}
 \large{Nächste Aufgabe war, die entwickelte Konzepte in statisches HTML mit CSS und Javascript umzusetzen. Unser Team hat abgesprochen, dass wir für die Website Entwicklung das Bootstrap Frameworks\footnote{Bootstrap ist ein freies und sehr häufig verwendetes CSS-Framework. Es enthält auf HTML und CSS basierende Gestaltungsvorlagen für Typografie, Formulare, Buttons, Tabellen, Grid-System, Navigations- und andere Oberflächengestaltungselemente sowie zusätzliche, optionale JavaScript-Erweiterungen.} benutzen werden. Das hat sehr viele Vorteile, als beim Null zu starten. Erstens ist das Bootstrap auch für kommerzielle Benutzung kostenlos, zweitens es beschleunigt die Arbeit, weil es sozusagen schon die CSS-Programmierung gemacht hat und wir nutzen nur die vorkonfiguriertes CSS Style für die jeweiligen HTML Elementen und drittens Bootstrap bietet sehr kompatible und responsive Design, das heißt, dass die Seite auch für alle Browsers sowie Handys und Tabletts optimiert ist. Für Programmieren habe ich das Software Sublime Text benutzt.\\
 Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \ref{login_seite_boot}), eine einfache HTML Seite mit Belectric Logo, Anmeldungsfelder und einen Button 'Sign In'.\\}
-
 
 \begin{figure}[htbp]
 	\centering
@@ -53,7 +40,6 @@ Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \re
 		\caption{Login-Seite mit Bootstrap}
 		\label{login_seite_boot}
 \end{figure}
-
 
 \large{Es wird danach der Konzept der Auswahl-Liste mittels HTML und Bootstrap realisiert. Mit dem Bootstrap kann man schnell die Liste erstellen und auch die Breite jedes Listenelement mit HTML \textbf{class}-en einstellen. Dafür dient sogenannte Grid System, welchen Bootstrap entwickelt hat. Es funktioniert so, dass die Breite einen erstellten \textbf{div} mit \textbf{collums} mit unterschiedliche Große einstellbar ist. Mit der maximale Breite 13 wird so geschrieben: \textbf{col-lg-13} bzw. \textbf{col-sm-13}. Das, was in diesem \textbf{div} dargestellt wird, wird sich auch über die ganze Breite der Seite strecken.\\
 In unseren Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen \textbf{col-lg-offset-1} für die untergeordnete Liste mit Länder (siehe Abbildung \ref{html_list_kontinente}), damit die um einen col-1 nach rechts verschoben werden. Mit diesem Fortgang sind auch weitere Liste entstanden.}
@@ -106,7 +92,6 @@ Als erste habe ich, das Idee mit Karte und Auswahl von Kraftwerken aus jeweilige
 		\label{new_karte_auswahl}
 \end{figure}
 
-\pagebreak
 \large{Nach dem Auswahl einer Kraftwerk kommt man auf neue Seite, sogenannte Dashboard, wo sich alle wichtige Informationen bzw. Daten befinden. Unsere Dashboard soll so aussehen, dass der Benutzer die Statusmeldungen und paar Diagrammen auf den ersten Blick sieht. Das erfolgt mittels Panels, Statusleisten, Charts (Diagrammen) und andere Elementen. Einige HTML Elementen sind bereit mit sb-admin-2 CSS-stilisiert. Als erste habe ich mit Tabellen gearbeitet (siehe Abbildung \ref{first_sb_admin}), wo die wichtige Kenndaten dargestellt worden. Es wurde ein neues Konzept skizziert und nach der Einigung mit dem Betreuer habe ich es in das Bootstrap umgewandelt (siehe Abbildung \ref{erste_dashboard}).\\
 
 \begin{figure}[htbp]
@@ -123,7 +108,6 @@ Als erste habe ich, das Idee mit Karte und Auswahl von Kraftwerken aus jeweilige
 		\label{erste_dashboard}
 \end{figure}
 
-
 \large{Im linken Menü sollen die jeweiligen Modulen des Kraftwerkes stehen. Beim Anklicken wird die Information, Status-Meldungen, Diagrammen bzw. Tabellen zu dem Modul angezeigt. Die Menü wird mit Bootstrap und HTML Klassen aufgebaut.\\ 
 Es wird noch die \textbf{collapse} Funktion eingebaut, das beim Anklicken eine zusammengesetzte Gruppe, zum Beispiel: EBU Master und EBU Slave als EBU, wird das nach unten rutschen und die zwei EBUs anzeigen. Damit es funktionieren kann, muss man zu den Menü-Elementen im HTML über die Klassen die Funktion einbinden (siehe Abbildung \ref{links_menu_modules}). Die Funktion selbst ist mit jQuery geschrieben und ist schon im sb-admin-2 eingeführt.\\ }
 
@@ -135,12 +119,11 @@ Es wird noch die \textbf{collapse} Funktion eingebaut, das beim Anklicken eine z
 		\label{links_menu_modules}
 \end{figure}
 
-
 \pagebreak
 
-\section{Die SQL-Datenbank}
 
-\large{Die postgreSQL\footnote{PostgreSQL [...] ist ein freies, objektrelationales Datenbankmanagementsystem (ORDBMS).} ist ein großes Bestandteil der Projekt. In diese Datenbank werden alle Daten gespeichert. Es gibt eine Tabelle für die Meta-Daten und dann Tabellen für die gesendeten Daten eines Kraftwerkes. Unsere Team hat abgesprochen, wie die Meta-Datenbank\footnote{Meta-Datenbank dient in unseren Fall als Datenbank mit Kenndaten und allgemeine Information, wie zum Beispiel: Name, Lage, Baujahr usw. eines Kraftwerks} aussehen wird. Meine Aufgabe war dann die Datenbank erstellen. Das erfolgt im Adminer\footnote{Ein Tool für die SQL Verwaltung} über SQL-Query\footnote{Kommandozeile für die SQL-Verwaltung}, wo ich über Kommandos die Tabellen bauen kann. Die SQL Quellcode (siehe Abbildung \ref{sql_dump}) muss die Elementen eine SQL Tabelle beinhalten.\\
+\section{Die SQL-Datenbank}
+\large{Die postgreSQL\footnote{PostgreSQL [...] ist ein freies, objektrelationales Datenbankmanagementsystem (ORDBMS).} ist ein großes Bestandteil der Projekt. In diese Datenbank werden alle Daten gespeichert. Es gibt eine Tabelle für die Meta-Daten und dann Tabellen für die gesendeten Daten eines Kraftwerkes. Unsere Team hat abgesprochen, wie die Meta-Datenbank\footnote{Meta-Datenbank dient in unseren Fall als Datenbank mit Kenndaten und allgemeine Information, wie zum Beispiel: Name, Lage, Baujahr usw. eines Kraftwerks} aussehen wird. Meine Aufgabe war dann die Datenbank erstellen. Das erfolgt im Adminer\footnote{Ein Tool für die SQL Verwaltung} über SQL-Query\footnote{Kommandozeile für die SQL-Verwaltung}, wo ich über Kommandos die Tabellen bauen kann. Die SQL Quellcode (siehe Abbildung \ref{sql_dump}) muss die Elementen eine SQL Tabelle beinhalten.
 
 \begin{figure}[htbp]
 	\centering
@@ -148,8 +131,9 @@ Es wird noch die \textbf{collapse} Funktion eingebaut, das beim Anklicken eine z
 		\caption{Ein Teil mein implementiertes SQL Quellcode}
 		\label{sql_dump}
 \end{figure}
+\pagebreak
 
-Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zeilen) bzw. Spalten erstellt werden sollen. Im unseren Fall wurden in der Datenbank Tabelle: continents, countries, countrycoordinates für die Karte, ebupowerplants mit Namen und Lagen, ebupowerplantsetups, wo die Modulen definiert werden, locations, modules, modulesname mit Module-Namen, temperature und users (siehe Abbildung \ref{adminer_meta}). Es wurde ein Teil von Tabellen mit Daten ausgefüllt. Die Ausgabe von Daten an die Diagrammen wird später mit Hilfe von PHP-Funktion realisiert. }
+Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zeilen) bzw. Spalten erstellt werden sollen. Im unseren Fall wurden in der Datenbank Tabelle: continents, countries, countrycoordinates für die Karte, ebupowerplants mit Namen und Lagen, ebupowerplantsetups, wo die Modulen definiert werden, locations, modules, modulesname mit Module-Namen, temperature und users (siehe Abbildung \ref{adminer_meta}). Es wurde ein Teil von Tabellen mit Daten ausgefüllt. Die Ausgabe von Daten an die Diagrammen wird später mit Hilfe von PHP-Funktion realisiert.}
 %include anhang sql dump
 
 \begin{figure}[htbp]
@@ -159,6 +143,7 @@ Es wird definiert, wie die Tabelle heißen, wie viel und welche \textbf{rows}(Zei
 		\label{adminer_meta}
 \end{figure}
 
+\pagebreak
 
 \section{Daten Visualisieren - Charts}
 \large{Der nächste Schwerpunkt war eine Javascript oder jQuery Bibliothek finden. Dies soll die Daten visualisieren und das im verschieden Arten von Diagrammen. Die Möglichkeiten wie 'Export Diagramm als Bild', Timeline\footnote{Auswählen einen Zeitabschnitt}, direktes Datum-Auswahl, Zoom, gleichzeitige Vergleichen von mehreren Daten waren meine Vergleichspunkte. Nach dem Untersuchen von mehreren freien oder auch bezahlte Bibliotheken war mit dem Betreuer abgesprochen, dass ich auf der Dashboard und auf andere Modulen-Seite eine einfache Bibliothek: \textbf{dyGraphs} benutze. Die dyGraphs sind einfach, responsive, zoom-fähig und können Daten mittels CSV\footnote{Das Dateiformat CSV steht für englisch Comma-separated values (seltener Character-separated values, da das Trennzeichen nicht zwingend ein Komma sein muss) und beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten. Die Dateinamenserweiterung lautet .csv.}visualisieren (siehe Abbildung \ref{dygraphs_test}). Es war noch abgesprochen, dass ich einen Link zur neuen Fenster mit Diagramm-Bibliothek \textbf{Amstockcharts} machen soll. Die \textbf{Amstockcharts} sind für Vergleichen von mehrere Daten bestimmt. Man kann auch die Diagrammen exportieren und man hat viele Möglichkeiten, welchen Zeitabschnitt dargestellt sein soll (siehe Abbildung \ref{amstockcharts_test}). 
@@ -197,12 +182,13 @@ Die Amcharts sind komplexere, größere und reine Javascript Charts-Bibliothek, di
 		\label{amstockcharts_JS}
 \end{figure}
 
-
-%Die Daten die im SQL liegen werden mittels Diagrammen visualisiert, es gibt mehrere Diagrammen-Bibliotheken, die man benutzen kann,  es war wichtig, dass die Open-source, mit SQL arbeiten kann - dynamisch, viele Optionen wie Export, mehrere Linien anzeigen, mehrere Typen von Charts, Datum-anzeigen}
 \pagebreak
 
-\section{PHP + Online}
+% Letzte HTML im Anhang includen
+%-------------------------------
 
+
+\section{PHP + Online}
 \large{Der nächste Schwerpunkt war die Umsetzung in PHP. Es war gebraucht, dass die Website dynamisch ist. Mann muss der Quellcode bearbeiten und dort, wo es gebraucht ist, den HTML-Code verändern. Die Seite wird nach der Bearbeitung als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und dann die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.\\
 Über PHP kann man die SQL zugreifen und somit die Daten in die Diagramme einladen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittles \textbf{connect} und in unseren Fall das \textbf{pg\_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg\_query} die Daten aus der Datenbank auf eine Variable aufladen. Diese Variable wird dann benutzt, um den Diagramm richtigen Weg zur Daten konfigurieren. \\ %includen code von connect und query
 Die Daten werden in eine Form gespeichert, welche die Diagramme nicht verarbeiten können. Das heißt, man muss die Umwandlung in die Form von JSON oder CSV durchführen. Diese sind von Diagrammen akzeptiert. Die Umwandlung in JSON kann man mit \textbf{encode\_json} machen. Für die CSV Form habe ich selbst einen Parser\footnote{Ein Parser ist ein Computerprogramm, das in der Informatik für die Zerlegung und Umwandlung einer beliebigen Eingabe in ein für die Weiterverarbeitung brauchbares Format zuständig ist.} geschrieben (siehe Abbildung \ref{csv_parser}).\\ %siehe include parserCSV 
@@ -222,9 +208,4 @@ Die \textbf{pg\_query} wird nicht nur für die Diagrammen benutzt sondern auch fü
 		\label{altdaber_menu_php}
 \end{figure}
 
-
-
-%Über PHP kann man die SQL zugreifen und somit die Daten in die Diagramme einladen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittels \textbf{connect} und in unseren Fall war das \textbf{pg_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg_query} die Daten aus der Datenbank auf eine Variable aufladen. Die Daten werden in eine Form gespeichert, wenn wir die Daten in den Form JSON oder CSV brauchen, müssen wir noch zu den \textbf{pg_query} die Befehlen für das \textbf{encode} hinzuschreiben. Bei der postgreSQL gibt es einen \textbf{encode} für JSON, es heißt: \textbf{json_encode}. Für die CSV gibt es keinen \textbf{encode}, so habe ich eine Funktion mit \textit{umschreiben} in die CSV Form geschrieben.
-
-%Kollegen haben einen Server erstellt, wo ich die Website veröffentlichen soll, damit die online verfügbar ist
 
