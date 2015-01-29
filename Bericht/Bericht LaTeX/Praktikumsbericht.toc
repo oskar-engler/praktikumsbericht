@@ -8,16 +8,16 @@
 \contentsline {chapter}{\numberline {1}Entwicklung der BMS-Algorithmus}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Einf\"uhrung in die Batterie Management System}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Erstellung eines BMS-Planes}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}BMS Algorithmus in C entwickeln}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Umwandlung in den \glqq Strukturierten Text\grqq \hspace {1mm}ST}{3}{section.1.4}
-\contentsline {section}{\numberline {1.5}Resultate}{3}{section.1.5}
-\contentsline {chapter}{\numberline {2}Web-Visualisierung}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Arbeitsverteilung/ Zielstellung}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Konzipierung}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Website - Entwicklung}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Die SQL-Datenbank}{11}{section.2.4}
-\contentsline {section}{\numberline {2.5}Daten Visualisieren - Charts}{13}{section.2.5}
-\contentsline {section}{\numberline {2.6}PHP + Online}{17}{section.2.6}
-\contentsline {chapter}{\numberline {3}Zusammenfassung und Ausblick}{19}{chapter.3}
-\contentsline {chapter}{Anhang}{20}{chapter*.29}
-\contentsline {chapter}{Eidesstattliche Erkl\"arung}{21}{chapter*.30}
+\contentsline {section}{\numberline {1.3}Entwicklung der Algorithmus}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Umwandlung in den \glqq Strukturierten Text\grqq \hspace {1mm}ST}{6}{section.1.4}
+\contentsline {section}{\numberline {1.5}Resultate}{6}{section.1.5}
+\contentsline {chapter}{\numberline {2}Web-Visualisierung}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Arbeitsverteilung/ Zielstellung}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Konzipierung}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Website - Entwicklung}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Die SQL-Datenbank}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}Daten Visualisieren - Charts}{17}{section.2.5}
+\contentsline {section}{\numberline {2.6}PHP + Online}{21}{section.2.6}
+\contentsline {chapter}{\numberline {3}Zusammenfassung und Ausblick}{23}{chapter.3}
+\contentsline {chapter}{Anhang}{24}{chapter*.34}
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{25}{chapter*.35}

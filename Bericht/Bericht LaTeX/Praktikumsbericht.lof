@@ -3,30 +3,37 @@
 \contentsline {figure}{\numberline {0.0.1}{\ignorespaces Logo Belectric\relax }}{1}{figure.caption.8}
 \contentsline {figure}{\numberline {0.0.2}{\ignorespaces Logo Adensis\relax }}{2}{figure.caption.9}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.2.1}{\ignorespaces Plan mit Beschriftung\relax }}{4}{figure.caption.10}
+\contentsline {figure}{\numberline {1.2.2}{\ignorespaces Die Legende zum Plan\relax }}{4}{figure.caption.11}
+\contentsline {figure}{\numberline {1.2.3}{\ignorespaces Verkabelung von Platinen\relax }}{5}{figure.caption.12}
+\contentsline {figure}{\numberline {1.3.1}{\ignorespaces Teil des \"Ubersichtstabellen\relax }}{6}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tabelle mit Tr\"ogen in Reihe}}}{6}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Tabelle mit Tr\"ogen in Trog-Verbunde Reihenordnung}}}{6}{figure.caption.13}
+\contentsline {figure}{\numberline {1.3.2}{\ignorespaces Tabelle mit Indexing\relax }}{7}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.2.1}{\ignorespaces Login-Seite\relax }}{5}{figure.caption.10}
-\contentsline {figure}{\numberline {2.2.2}{\ignorespaces Liste mit L\"ander und Anlagen\relax }}{5}{figure.caption.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vor dem Klick}}}{5}{figure.caption.11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Nach dem Klick}}}{5}{figure.caption.11}
-\contentsline {figure}{\numberline {2.3.1}{\ignorespaces Login-Seite mit Bootstrap\relax }}{6}{figure.caption.12}
-\contentsline {figure}{\numberline {2.3.2}{\ignorespaces Liste mit Amerika\relax }}{7}{figure.caption.13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HTML - Quellcode}}}{7}{figure.caption.13}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Ansicht im Browser}}}{7}{figure.caption.13}
-\contentsline {figure}{\numberline {2.3.3}{\ignorespaces Liste mit Deutschlands Kraftwerken\relax }}{8}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3.4}{\ignorespaces jQuery Skript f\"ur \"offnen von Amerika Kontinent Liste\relax }}{8}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3.5}{\ignorespaces jQuery Leaflet Karte mit Pointer Beispielen\relax }}{9}{figure.caption.16}
-\contentsline {figure}{\numberline {2.3.6}{\ignorespaces Die Karte im Seite mit neuen Layout\relax }}{9}{figure.caption.17}
-\contentsline {figure}{\numberline {2.3.7}{\ignorespaces Die erste Umsetzung mit Tabellen als Beispiel\relax }}{9}{figure.caption.18}
-\contentsline {figure}{\numberline {2.3.8}{\ignorespaces Ein Teil der Test-Dashboard ohne Navigationsleisten\relax }}{10}{figure.caption.19}
-\contentsline {figure}{\numberline {2.3.9}{\ignorespaces Modulen-Men\"u links\relax }}{11}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HTML - Quellcode Linke Men\"u}}}{11}{figure.caption.20}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {im Browser: EBU Master aktiv}}}{11}{figure.caption.20}
-\contentsline {figure}{\numberline {2.4.1}{\ignorespaces Ein Teil mein implementiertes SQL Quellcode\relax }}{12}{figure.caption.21}
-\contentsline {figure}{\numberline {2.4.2}{\ignorespaces Ansicht im Adminer\relax }}{12}{figure.caption.22}
-\contentsline {figure}{\numberline {2.5.1}{\ignorespaces dyGraphs Beispiel mit Beispielsdaten\relax }}{13}{figure.caption.23}
-\contentsline {figure}{\numberline {2.5.2}{\ignorespaces Amstockcharts Beispiel mit Beispielsdaten\relax }}{14}{figure.caption.24}
-\contentsline {figure}{\numberline {2.5.3}{\ignorespaces dyGraphs Beispiel-Diagramm\relax }}{14}{figure.caption.25}
-\contentsline {figure}{\numberline {2.5.4}{\ignorespaces Amstockcharts Beispiel-Diagramm\relax }}{16}{figure.caption.26}
-\contentsline {figure}{\numberline {2.6.1}{\ignorespaces CSV Parser f\"ur die Diagramme\relax }}{18}{figure.caption.27}
-\contentsline {figure}{\numberline {2.6.2}{\ignorespaces Men\"u \"uber PHP\relax }}{18}{figure.caption.28}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces Login-Seite\relax }}{9}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2.2}{\ignorespaces Liste mit L\"ander und Anlagen\relax }}{9}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vor dem Klick}}}{9}{figure.caption.16}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Nach dem Klick}}}{9}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3.1}{\ignorespaces Login-Seite mit Bootstrap\relax }}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3.2}{\ignorespaces Liste mit Amerika\relax }}{11}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HTML - Quellcode}}}{11}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Ansicht im Browser}}}{11}{figure.caption.18}
+\contentsline {figure}{\numberline {2.3.3}{\ignorespaces Liste mit Deutschlands Kraftwerken\relax }}{12}{figure.caption.19}
+\contentsline {figure}{\numberline {2.3.4}{\ignorespaces jQuery Skript f\"ur \"offnen von Amerika Kontinent Liste\relax }}{12}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3.5}{\ignorespaces jQuery Leaflet Karte mit Pointer Beispielen\relax }}{13}{figure.caption.21}
+\contentsline {figure}{\numberline {2.3.6}{\ignorespaces Die Karte im Seite mit neuen Layout\relax }}{13}{figure.caption.22}
+\contentsline {figure}{\numberline {2.3.7}{\ignorespaces Die erste Umsetzung mit Tabellen als Beispiel\relax }}{13}{figure.caption.23}
+\contentsline {figure}{\numberline {2.3.8}{\ignorespaces Ein Teil der Test-Dashboard ohne Navigationsleisten\relax }}{14}{figure.caption.24}
+\contentsline {figure}{\numberline {2.3.9}{\ignorespaces Modulen-Men\"u links\relax }}{15}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {HTML - Quellcode Linke Men\"u}}}{15}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {im Browser: EBU Master aktiv}}}{15}{figure.caption.25}
+\contentsline {figure}{\numberline {2.4.1}{\ignorespaces Ein Teil mein implementiertes SQL Quellcode\relax }}{16}{figure.caption.26}
+\contentsline {figure}{\numberline {2.4.2}{\ignorespaces Ansicht im Adminer\relax }}{16}{figure.caption.27}
+\contentsline {figure}{\numberline {2.5.1}{\ignorespaces dyGraphs Beispiel mit Beispielsdaten\relax }}{17}{figure.caption.28}
+\contentsline {figure}{\numberline {2.5.2}{\ignorespaces Amstockcharts Beispiel mit Beispielsdaten\relax }}{18}{figure.caption.29}
+\contentsline {figure}{\numberline {2.5.3}{\ignorespaces dyGraphs Beispiel-Diagramm\relax }}{18}{figure.caption.30}
+\contentsline {figure}{\numberline {2.5.4}{\ignorespaces Amstockcharts Beispiel-Diagramm\relax }}{20}{figure.caption.31}
+\contentsline {figure}{\numberline {2.6.1}{\ignorespaces CSV Parser f\"ur die Diagramme\relax }}{22}{figure.caption.32}
+\contentsline {figure}{\numberline {2.6.2}{\ignorespaces Men\"u \"uber PHP\relax }}{22}{figure.caption.33}
 \addvspace {10\p@ }

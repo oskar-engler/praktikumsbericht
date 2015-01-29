@@ -35,8 +35,8 @@ Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame1_View0,0]
-TopLine=74
-Cursor=3625
+TopLine=5
+Cursor=384
 
 [Frame2]
 Flags=0
@@ -71,7 +71,7 @@ Class=LaTeXView
 Document=Einleitung.tex
 
 [Frame3_View0,0]
-TopLine=0
+TopLine=2
 Cursor=2242
 
 [Frame4]
@@ -89,8 +89,8 @@ Class=LaTeXView
 Document=Oktober.tex
 
 [Frame4_View0,0]
-TopLine=0
-Cursor=186
+TopLine=44
+Cursor=3141
 
 [Frame5]
 Flags=0
@@ -107,8 +107,8 @@ Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame5_View0,0]
-TopLine=0
-Cursor=13095
+TopLine=132
+Cursor=10952
 
 [Frame6]
 Flags=0
@@ -180,9 +180,9 @@ Document=EidesstattlicheErklarung.tex
 
 [Frame9_View0,0]
 TopLine=0
-Cursor=716
+Cursor=628
 
 [SessionInfo]
 FrameCount=10
-ActiveFrame=0
+ActiveFrame=4
 
