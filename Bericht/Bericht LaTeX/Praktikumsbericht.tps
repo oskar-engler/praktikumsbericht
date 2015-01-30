@@ -11,7 +11,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Sperrvermerk.tex
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Praktikumsbericht.tex
 
 [Frame1_View0,0]
-TopLine=5
-Cursor=384
+TopLine=0
+Cursor=1011
 
 [Frame2]
 Flags=0
@@ -47,13 +47,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Titelseite.tex
 
 [Frame2_View0,0]
-TopLine=3
+TopLine=0
 Cursor=289
 
 [Frame3]
@@ -65,13 +65,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Einleitung.tex
 
 [Frame3_View0,0]
-TopLine=2
+TopLine=0
 Cursor=2242
 
 [Frame4]
@@ -83,14 +83,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Oktober.tex
 
 [Frame4_View0,0]
-TopLine=44
-Cursor=3141
+TopLine=29
+Cursor=4412
 
 [Frame5]
 Flags=0
@@ -101,13 +101,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame5_View0,0]
-TopLine=132
+TopLine=84
 Cursor=10952
 
 [Frame6]
@@ -119,7 +119,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Abkuerzung.tex
@@ -137,7 +137,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Fazit.tex
@@ -155,7 +155,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=Anhang.tex
@@ -173,7 +173,7 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1515
+NormalPos.right=1532
 NormalPos.bottom=656
 Class=LaTeXView
 Document=EidesstattlicheErklarung.tex
