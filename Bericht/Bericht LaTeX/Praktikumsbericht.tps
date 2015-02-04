@@ -89,7 +89,7 @@ Class=LaTeXView
 Document=Oktober.tex
 
 [Frame4_View0,0]
-TopLine=29
+TopLine=39
 Cursor=4412
 
 [Frame5]
@@ -107,7 +107,7 @@ Class=LaTeXView
 Document=WebVisu.tex
 
 [Frame5_View0,0]
-TopLine=84
+TopLine=154
 Cursor=10952
 
 [Frame6]
