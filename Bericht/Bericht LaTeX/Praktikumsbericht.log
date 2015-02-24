@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  5 FEB 2015 10:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.12)  24 FEB 2015 18:20
 entering extended mode
 **Praktikumsbericht.tex
 ("C:\bin\Praktikumsbericht\Bericht\Bericht LaTeX\Praktikumsbericht.tex"
@@ -1364,19 +1364,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-<images/Plan_Trogverbund.png, id=215, 839.38594pt x 592.46344pt>
+<images/Plan_Trogverbund.png, id=215, 755.07094pt x 592.46344pt>
 File: images/Plan_Trogverbund.png Graphic file (type png)
 
 <use images/Plan_Trogverbund.png>
 Package pdftex.def Info: images/Plan_Trogverbund.png used on input line 15.
-(pdftex.def)             Requested size: 436.60997pt x 308.17316pt.
+(pdftex.def)             Requested size: 436.60997pt x 342.58037pt.
 
 <images/plan_legende.png, id=216, 551.05875pt x 381.67593pt>
 File: images/plan_legende.png Graphic file (type png)
 
 <use images/plan_legende.png>
 Package pdftex.def Info: images/plan_legende.png used on input line 22.
-(pdftex.def)             Requested size: 264.61333pt x 183.2839pt.
+(pdftex.def)             Requested size: 352.81552pt x 244.37659pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1398,12 +1398,12 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 28.
  [4 <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/Plan_Trogverbund.png
 > <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/plan_legende.png>]
-<images/Montage_plan.png, id=227, 837.88031pt x 590.95781pt>
+<images/Montage_plan.png, id=227, 780.66656pt x 590.95781pt>
 File: images/Montage_plan.png Graphic file (type png)
 
 <use images/Montage_plan.png>
 Package pdftex.def Info: images/Montage_plan.png used on input line 32.
-(pdftex.def)             Requested size: 396.91325pt x 279.9414pt.
+(pdftex.def)             Requested size: 441.01773pt x 333.8467pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1800,12 +1800,12 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 177.
  [20 <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/amstockcharts_test.
 png> <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/dyGraphs_JS.png>]
-<images/amstockcharts_JS.png, id=384, 427.5975pt x 654.19406pt>
+<images/amstockcharts_JS.png, id=384, 421.575pt x 352.31625pt>
 File: images/amstockcharts_JS.png Graphic file (type png)
 
 <use images/amstockcharts_JS.png>
 Package pdftex.def Info: images/amstockcharts_JS.png used on input line 180.
-(pdftex.def)             Requested size: 352.81552pt x 539.77666pt.
+(pdftex.def)             Requested size: 352.81552pt x 294.8577pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1814,30 +1814,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 186.
- [21]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 186.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 186.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 186.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 186.
- [22 <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/amstockcharts_JS.pn
+ [21 <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/amstockcharts_JS.pn
 g>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 191.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 191.
 
-<images/csv_parser.png, id=396, 278.54062pt x 158.84344pt>
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
+
+ []
+
+<images/csv_parser.png, id=393, 278.54062pt x 158.84344pt>
 File: images/csv_parser.png Graphic file (type png)
 
 <use images/csv_parser.png>
 Package pdftex.def Info: images/csv_parser.png used on input line 199.
 (pdftex.def)             Requested size: 278.53993pt x 158.84305pt.
 
-<images/altdaber_menu_php.png, id=397, 132.495pt x 325.215pt>
+<images/altdaber_menu_php.png, id=394, 132.495pt x 325.215pt>
 File: images/altdaber_menu_php.png Graphic file (type png)
 
 <use images/altdaber_menu_php.png>
@@ -1856,7 +1851,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [23]
+ [22]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1865,13 +1860,34 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [24 <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/csv_parser.png> <C:
+ [23 <C:/bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/csv_parser.png> <C:
 /bin/Praktikumsbericht/Bericht/Bericht LaTeX/images/altdaber_menu_php.png>]
 Kapitel 3.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...erkes anzeigen lassen. Man kann auch größ
+                                                  ere Zeitspanne sowie kürz...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2014/04/30 v1.2b Input encoding file
 )
@@ -1884,7 +1900,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [25
+ [24
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -1905,7 +1921,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 4.
 
-[26
+[25
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -1931,7 +1947,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 107.
- [27
+ [26
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
@@ -1947,7 +1963,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Praktikumsbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 91239924C3C939172FEF5434372539E8;1379.
+(rerunfilecheck)             Checksum: 2C9C3F91B0D6090B19550B62F611EEB9;1370.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  )
 (\end occurred inside a group at level 4)
@@ -1958,13 +1978,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
 ### simple group (level 1) entered at line 100 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21118 strings out of 493705
- 388389 string characters out of 3142071
- 501616 words of memory out of 3000000
- 23825 multiletter control sequences out of 15000+200000
+ 21138 strings out of 493705
+ 388752 string characters out of 3142071
+ 502616 words of memory out of 3000000
+ 23843 multiletter control sequences out of 15000+200000
  15936 words of font info for 60 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 64i,11n,60p,1477b,1852s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,11n,60p,1483b,1852s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -1973,10 +1993,11 @@ mr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Praktikumsbericht.pdf (34 pages, 1366926 bytes).
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Praktikumsbericht.pdf (33 pages, 1362236 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
  336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,8 +6,8 @@
 
 
 \section{Erstellung eines BMS-Planes}
-\large{Die Batterien sollen mit dem BMS-System belegt werden. Dafür war ein Plan zur Verteilung von BMS Platinen konzipiert. Es waren mehrere Versionen entstanden, wie die Platinen verbunden werden. Wichtige Punkten waren, dass die Kommunikationskabeln nicht länger als das festgelegte Maximum werden und dass die Batteriezellen mit dem BMS System verbunden werden. Der Plan sollte übersichtlich sein, weil es für die Orientierung in dem EBU dienen soll. Den Plan habe ich in Microsoft Word erstellt. Ich sollte die Nummerierung von Platinen festlegen. In einen EBU gibt es 16 Trog-Verbunde mit jeweils 5 Trögen. Ein Trog hat zwei Zellenblöcke mit jeweils 6 Zellen. Eine Platine kann Werten von zwei Zellenblöcken messen. Die Platine reicht aber mit Kabeln nicht über einen Trog, das heißt, dass die BMS die Werten von zwei nebenstehenden Zellenblöcke messen muss.\\
-In der erste Plan habe ich die Verteilung und Nummerierung ausführlich beschreiben (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}). \\
+\large{Die Batterien sollen mit dem BMS-System belegt werden. Dafür war ein Plan zur Verteilung von BMS Platinen konzipiert. Es waren mehrere Versionen entstanden, wie die Platinen verbunden werden. Wichtige Punkten waren, dass die Kommunikationskabeln nicht länger als das festgelegte Maximum werden und dass die Batteriezellen mit dem BMS System verbunden werden. Der Plan sollte übersichtlich sein, weil es für die Orientierung in dem EBU dienen soll. Der Plan wurde mit dem Microsoft Word erstellt. Nach eine Gruppenbesprechung wurde die Nummerierung der jeweilige Teilen der EBU. In einen EBU gibt es 16 Trog-Verbunde mit jeweils 5 Trögen. Ein Trog hat zwei Zellenblöcke mit jeweils 6 Zellen. Eine Platine kann Werten von zwei Zellenblöcken messen. Die Platine reicht aber mit Kabeln nicht über einen Trog, das heißt, dass die BMS-Platine die Werten von zwei nebenstehenden Zellenblöcke messen kann.\\
+In der erste Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}).) ist die Verteilung und Nummerierung zu sehen.\\
 
 
 \begin{figure}[htbp]
@@ -19,7 +19,7 @@ In der erste Plan habe ich die Verteilung und Nummerierung ausführlich beschreib
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.6\textwidth]{images/plan_legende.png}
+     \includegraphics[width=0.8\textwidth]{images/plan_legende.png}
   \caption{Die Legende zum Plan}
   \label{plan_legende}
 \end{figure}
@@ -29,7 +29,7 @@ In den zweiten Plan geht es hauptsächlich um das Verkabelung zwischen BMS-Platin
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.9\textwidth]{images/Montage_plan.png}
+     \includegraphics[width=1\textwidth]{images/Montage_plan.png}
   \caption{Verkabelung von Platinen}
   \label{Montage_plan}
 \end{figure}
@@ -37,9 +37,9 @@ In den zweiten Plan geht es hauptsächlich um das Verkabelung zwischen BMS-Platin
 
 
 \section{Entwicklung der Algorithmus}
-\large{Zu nächst habe ich paar Tabellen im Excel erstellt. Die erste Tabelle beinhaltet Informationen zur Verteilung von Platinen. Aus dieser Tabelle sollte man schnell die Nummer der Platine auslesen, welche zum Beispiel die Batteriezelle Nummer 5 des Troges 2 des Trog-Verbundes 11 messen wurde (siehe Abbildung \ref{tabelle_excel}). Diese Tabelle dient für die bessere Orientierung in einen EBU. \\ 
-In der nächste Tabelle ist der Zusammenhang zwischen eingeladene und festgestellte Werte-Indexen beschrieben. Aus diese Tabelle sollte man zum Beispiel auslesen, dass die Platine Nummer 1 die Indexen 0 bis 14 mit Werten von 5. Trog des 1. und 3. Trog-Verbundes beladet. Die Indexen 0 bis 14 werden mit Werten aufgeladen, aber damit es sortiert wird, muss man die Indexen auf die festgesetzte Indexen aufladen, in diesem Fall wurden es Indexen von 210 bis 215, von 60 bis 65 und drei Indexen 222, 223 und 224 (siehe Abbildung \ref{example_tabelle_indexing}). Die Visualisierung wird die festgelegte Anordnung anzeigen.\\ 	
-	
+\large{Zu nächst wurden Tabellen im Excel erstellt. Die erste Tabelle beinhaltet Informationen zur Verteilung von Platinen. Aus dieser Tabelle sollte man schnell die Nummer der Platine auslesen, welche zum Beispiel die Batteriezelle Nummer 5 des Troges 2 des Trog-Verbundes 11 messen wurde (siehe Abbildung \ref{tabelle_excel}). Diese Tabelle dient für die bessere Orientierung in einen EBU. \\ 
+In der nächste Tabelle ist der Zusammenhang zwischen eingeladene und festgestellte Werte-Indexen beschrieben. Aus diese Tabelle sollte man zum Beispiel auslesen, dass die Platine Nummer 1 die Indexen 0 bis 14 mit Werten von 5. Trog des 1. und 3. Trog-Verbundes beladet. Die Indexen 0 bis 14 werden mit Werten beladen, aber damit es sortiert wird, muss man die Indexen auf die festgesetzte Indexen aufladen, in diesem Fall wurden es Indexen von 210 bis 215, von 60 bis 65 und drei Indexen 222, 223 und 224 (siehe Abbildung \ref{example_tabelle_indexing}). Die Visualisierung wird die festgelegte Anordnung anzeigen. \\
+
 \begin{figure}[htbp]
   \centering
      \subfigure[Tabelle mit Trögen in Reihe]{\includegraphics[width=0.42\textwidth]{images/example_tabelle_excel.png}}
@@ -58,13 +58,13 @@ In der nächste Tabelle ist der Zusammenhang zwischen eingeladene und festgestell
   \label{example_tabelle_indexing}
 \end{figure}
 
-Nach dem die Fakten gesammelt wurden, kann man den Algorithmus entwickeln. Man muss die Zusammenhänge finden und davon allgemeine Regeln bilden. Diese Regeln müssen alle Werte-Indexen beschreiben. Dann sind die Regeln zusammengefasst und wie möglich es wird vereinfacht. Diese Vereinfachungen habe ich erstens mit Programmiersprache C beschreiben. Mit If- und Switch-Operatoren und for-Schleifen wurde die Zuordnung der jeweiligen Werte-Index auf die von uns feststellte Indexen durchgeführt. Man sollte den Algorithmus  
+Nach dem die Fakten gesammelt wurden, kann man den Algorithmus entwickeln. Man muss die Zusammenhänge finden und davon allgemeine Regeln bilden. Diese Regeln müssen alle Werte-Indexen beschreiben. Dann sind die Regeln zusammengefasst und wie möglich wird es vereinfacht. Diese Vereinfachungen wurden erstens mit Programmiersprache C beschreiben. Mit If- und Switch-Operatoren und for-Schleifen wurde die Zuordnung der jeweiligen Werte-Index auf die von uns festgestellte Indexen durchgeführt.\\ %siehe Anhang mit dem Algorithmus
 
-}\pagebreak
-
-\section{Umwandlung in den \glqq Strukturierten Text\grqq \hspace{1mm}ST}
-\large{(Damit es Johann implementieren kann, muss ich es in \textbf{ST} umwandeln, \textbf{ST} Syntax lernen, Die Implementierung)}
+Die Visualisierung von der BMS Daten erfolgt über die B\&R Umgebung, welche die Sprache \textbf{ST} benutzt. Der Code in C war in die Sprache ST umgewandelt und dann in die Umgebung eingesetzt. }%siehe Screenshot von Johann
 
 
-\section{Resultate}
-\large{(Anwendung für die B\&R Steuerung, Screenshots von Johann)}
+\section{Test Durchführung}
+\large{Nach der Anwendung in die Visualisation wurde der Algorithmus getestet. Der Test war folgendes durchgeführt: man muss das, was die Visualisation zeigt, mit Werten eines Messgerätes an eine Zelle vergleichen. Es wurde an allen Zellen getestet ob die Werten übereinstimmen. Der Test hat positiven Ergebnis, das heißt, dass die Werten auf richtigen Indexen gespeichert sind.}
+
+\section{Fazit}
+\large{Mit der richtigen Zuordnung der Messwerte kann man den Mitarbeitern oder Kunden zeigen, welche Spannung an den jeweiligen Batteriezellen anliegt. (Screenshots von Johann)}
