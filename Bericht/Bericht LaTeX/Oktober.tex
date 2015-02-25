@@ -1,13 +1,13 @@
-\chapter{Entwicklung der BMS-Algorithmus}\thispagestyle{fancy}
+\chapter{Entwicklung des BMS-Algorithmus}\thispagestyle{fancy}
 
 
-\section{Einführung in die Batterie Management System}
-\large{Die Batterie-Management-System ist ein System, welches in Abteilung Embedded Systeme entstanden ist, der zu Überwachung von Batteriezellen entwickelt wurde. Die BMS messen Spannung, Temperatur und Leitwert an jeweiligen Zellen. Eine BMS-Platine kann man mit 12 Zellen verbinden und von allen den Spannungswert auslesen. Der BMS wurde in der Batteriespeicher in Alt Daber im Brandenburg zur Betrieb genommen. Es soll vor allem als Überwachungssystem für die Firma dienen, damit man die Spannungen und andere Werten kontrollieren kann. Dazu wird, für bessere Übersichtlichkeit und Orientierung, eine Visualisation angefertigt. (siehe Abbildung(hier einen Bild Visualisation). Die Daten von jeweiligen Batteriezellen sind in falschen Reihenordnung gespeichert. Dies ist wegen die geführte Leitung von Kommunikationskabeln verursacht. Dabei ist meine Aufgabe ein Algorithmus entwickeln, der die Daten in die richtige, von uns festgestellte, Reihenordnung sortiert. Damit sollen die Messwerten richtig in der Visualisation gezeigt werden. }
+\section{Einführung in das Batterie Management System}
+\large{Das Batterie-Management-System ist ein System, welches in der Abteilung Embedded Systems zur Überwachung von Batteriezellen entwickelt wurde. Das BMS misst Spannung, Temperatur und Leitwert an den jeweiligen Zellen. Eine BMS-Platine kann man mit 12 Zellen verbinden und von allen den Spannungswert auslesen. Das BMS wurde in dem Batteriespeicher in Alt Daber im Brandenburg in Betrieb genommen. Es soll vor allem als Überwachungssystem für die Firma dienen, damit man die Spannungen und andere Werten kontrollieren kann. Dazu wird, für eine bessere Übersichtlichkeit und Orientierung, eine Visualisierung angefertigt. (siehe Abbildung(hier einen Bild Visualisation). Die Daten der jeweiligen Batteriezellen sind in einer unpassenden Anordnung gespeichert. Dies ist der konstruktionsbedingten Verlegung des Kommunikationskabels geschuldet. Dabei ist meine Aufgabe ein Algorithmus zu entwickeln, der die Daten in die richtige, von uns festgestellte, Anordnung sortiert. Damit sollen die Messwerte richtig in der Visualisierung gezeigt werden. }
 
 
 \section{Erstellung eines BMS-Planes}
-\large{Die Batterien sollen mit dem BMS-System belegt werden. Dafür war ein Plan zur Verteilung von BMS Platinen konzipiert. Es waren mehrere Versionen entstanden, wie die Platinen verbunden werden. Wichtige Punkten waren, dass die Kommunikationskabeln nicht länger als das festgelegte Maximum werden und dass die Batteriezellen mit dem BMS System verbunden werden. Der Plan sollte übersichtlich sein, weil es für die Orientierung in dem EBU dienen soll. Der Plan wurde mit dem Microsoft Word erstellt. Nach eine Gruppenbesprechung wurde die Nummerierung der jeweilige Teilen der EBU. In einen EBU gibt es 16 Trog-Verbunde mit jeweils 5 Trögen. Ein Trog hat zwei Zellenblöcke mit jeweils 6 Zellen. Eine Platine kann Werten von zwei Zellenblöcken messen. Die Platine reicht aber mit Kabeln nicht über einen Trog, das heißt, dass die BMS-Platine die Werten von zwei nebenstehenden Zellenblöcke messen kann.\\
-In der erste Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}).) ist die Verteilung und Nummerierung zu sehen.\\
+\large{Die Batterien sollen mit dem BMS-System belegt werden. Dafür wurde ein Plan zur Verteilung von BMS Platinen konzipiert. Es existierten mehrere Pläne/Versionen, wie die Platinen verbunden werden können. Wichtige Punkte waren, dass die Kommunikationskabel nicht länger als das festgelegte Maximum werden und dass die Batteriezellen mit dem BMS System verbunden werden. Der Plan sollte übersichtlich sein, weil es der Orientierung in dem EBU dienen soll. Der Plan wurde mit Microsoft Word erstellt. Während einer Gruppenbesprechung wurde die Nummerierung der jeweiligen Teile der EBU festgelegt. In einer EBU gibt es 16 Trog-Verbunde mit jeweils 5 Trögen. Ein Trog hat zwei Zellenblöcke mit jeweils 6 Zellen. Eine Platine kann Werte von zwei Zellenblöcken messen. Die Platine ist allerdings durch die Kabellängen beschränkt und reicht nicht über einen Trog, das heißt, dass die Platine die Werte von zwei benachbarten Zellblöcken messen kann.\\
+In dem ersten Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}).) ist die Verteilung und Nummerierung zu sehen.\\
 
 \begin{figure}[htbp]
   \centering
@@ -23,7 +23,7 @@ In der erste Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}
   \label{plan_legende}
 \end{figure}
 
-In den zweiten Plan geht es hauptsächlich um das Verkabelung zwischen BMS-Platinen. Die Platinen wurden mit Kommunikationskabeln verbunden. Dies ist mit blau gezeichnet (siehe Abbildung \ref{Montage_plan}).
+In dem zweiten Plan geht es hauptsächlich um die Verkabelung zwischen den BMS-Platinen. Die Platinen wurden mit Kommunikationskabeln verbunden. Dies ist mit blau gekennzeichnet (siehe Abbildung \ref{Montage_plan}).
 
 \begin{figure}[htbp]
   \centering
@@ -35,8 +35,8 @@ In den zweiten Plan geht es hauptsächlich um das Verkabelung zwischen BMS-Platin
 
 
 \section{Entwicklung der Algorithmus}
-\large{Zu nächst wurden Tabellen im Excel erstellt. Die erste Tabelle beinhaltet Informationen zur Verteilung von Platinen. Aus dieser Tabelle sollte man schnell die Nummer der Platine auslesen, welche zum Beispiel die Batteriezelle Nummer 5 des Troges 2 des Trog-Verbundes 11 messen wurde (siehe Tabellen \ref{tbl:tabelle_excel}). Diese Tabelle dient für die bessere Orientierung in einen EBU. \\ 
-In der nächste Tabelle ist der Zusammenhang zwischen eingeladene und festgestellte Werte-Indexen beschrieben. Aus diese Tabelle sollte man zum Beispiel auslesen, dass die Platine Nummer 1 die Indexen 0 bis 14 mit Werten von 5. Trog des 1. und 3. Trog-Verbundes beladet. Die Indexen 0 bis 14 werden mit Werten beladen, aber damit es sortiert wird, muss man die Indexen auf die festgesetzte Indexen aufladen, in diesem Fall wurden es Indexen von 210 bis 215, von 60 bis 65 und drei Indexen 222, 223 und 224 (siehe Tabelle \ref{tbl:example_tabelle_indexing}). Die Visualisierung wird die festgelegte Anordnung anzeigen. \\
+\large{Zu nächst wurden Tabellen im Excel erstellt. Die erste Tabelle beinhaltet Informationen zur Verteilung von Platinen. Aus dieser Tabelle sollte man schnell die Nummer der Platine auslesen, welche zum Beispiel die Batteriezelle Nummer 5 des Troges 2 des Trog-Verbundes 11 messen würde (siehe Tabellen \ref{tbl:tabelle_excel}). Diese Tabelle dient der besseren Orientierung in einer EBU. \\ 
+In der nächsten Tabelle ist der Zusammenhang zwischen gespeicherte und festgestellte Werte-Indizes beschrieben. Aus dieser Tabelle sollte man zum Beispiel auslesen, dass die Platine Nummer 1 auf die Indizes 0 bis 14 die Werten vom 5. Trog des 1. und 3. Trog-Verbundes speichert. Damit es sortiert wird, muss man die Indizes 0 bis 14 mit die festgesetzte Indizes überschreiben, in diesem Fall werden es Indizes von 210 bis 215, von 60 bis 65 und drei Indizes 222, 223 und 224 (siehe Tabelle \ref{tbl:example_tabelle_indexing}). Die Visualisierung wird die festgelegte Anordnung anzeigen. \\
 
 
 \begin{table}
@@ -53,14 +53,14 @@ In der nächste Tabelle ist der Zusammenhang zwischen eingeladene und festgestell
   \includegraphics[width=\linewidth]{images/example_tabelle_indexing.png}
 \end{table}
 
-Nach dem die Fakten gesammelt wurden, kann man den Algorithmus entwickeln. Man muss die Zusammenhänge finden und davon allgemeine Regeln bilden. Diese Regeln müssen alle Werte-Indexen beschreiben. Dann sind die Regeln zusammengefasst und wie möglich wird es vereinfacht. Diese Vereinfachungen wurden erstens mit Programmiersprache C beschreiben. Mit If- und Switch-Operatoren und for-Schleifen wurde die Zuordnung der jeweiligen Werte-Index auf die von uns festgestellte Indexen durchgeführt.\\ %siehe Anhang mit dem Algorithmus
+Nach dem die Fakten gesammelt wurden, kann man den Algorithmus entwickeln. Man muss die Zusammenhänge finden und davon allgemeine Regeln bilden. Diese Regeln müssen alle Werte-Indizes beschreiben. Dann sind die Regeln zusammengefasst und eine Vereinfachung je nach Möglichkeiten erfolgt. Diese Vereinfachungen wurden mit der Programmiersprache \textit{C} geschrieben. Mit If- und Switch-Operatoren und for-Schleifen wurde die Zuordnung der jeweiligen Werte-Indizes auf die von uns fest gestellten Indizes durchgeführt.\\ %siehe Anhang mit dem Algorithmus
 
-Die Visualisierung von der BMS Daten erfolgt über die B\&R Umgebung, welche die Sprache \textbf{ST} benutzt. Der Code in C war in die Sprache ST umgewandelt und dann in die Umgebung eingesetzt. }%siehe Screenshot von Johann
+Die Visualisierung der BMS Daten erfolgt über die B\&R Umgebung, welche die Sprache \textit{ST} benutzt. Der Code in \textit{C} wurde in die Sprache ST umgewandelt und dann in die Umgebung eingesetzt. }%siehe Screenshot von Johann
 
 \pagebreak
 
 \section{Test Durchführung}
-\large{Nach der Anwendung in die Visualisation wurde der Algorithmus getestet. Der Test war folgendes durchgeführt: man muss das, was die Visualisation zeigt, mit Werten eines Messgerätes an eine Zelle vergleichen. Es wurde an allen Zellen getestet ob die Werten übereinstimmen. Der Test hat positiven Ergebnis, das heißt, dass die Werten auf richtigen Indexen gespeichert sind.}
+\large{Nach der Anwendung der Visualisierung wurde der Algorithmus getestet. Der Test war wurde dabei wie folgt durchgeführt: Das was die Visualisierung wiedergibt, muss mit den Werten des Messgerätes verglichen werden. Es wurde an allen Zellen getestet, ob die Werte übereinstimmen. Der Test zeigte ein positives Ergebnis, das heißt, dass die Werte auf den richtigen Indizes gespeichert wurden.}
 
 \section{Fazit}
-\large{Mit der richtigen Zuordnung der Messwerte kann man den Mitarbeitern oder Kunden zeigen, welche Spannung an den jeweiligen Batteriezellen anliegt. Auch die Temperaturen und Leitwerten sind damit unter Aufsicht. Die ganze Funktionalität wird mittels Visualisation überwacht. (Screenshots von Johann)}
+\large{Mit der richtigen Zuordnung der Messwerte kann man den Mitarbeitern oder Kunden zeigen, welche Spannungen an den jeweiligen Batteriezellen anliegen. Auch die Temperaturen und Leitwerte sind damit unter Aufsicht. Die ganze Funktionalität wird mittels Visualisierung überwacht. (Screenshots von Johann)}
