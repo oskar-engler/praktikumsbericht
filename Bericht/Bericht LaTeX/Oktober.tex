@@ -2,12 +2,19 @@
 
 
 \section{Einführung in das Batterie Management System}
-\large{Das Batterie-Management-System ist ein System, welches in der Abteilung Embedded Systems zur Überwachung von Batteriezellen entwickelt wurde. Das BMS misst Spannung, Temperatur und Leitwert an den jeweiligen Zellen. Eine BMS-Platine kann man mit 12 Zellen verbinden und von allen den Spannungswert auslesen. Das BMS wurde in dem Batteriespeicher in Alt Daber im Brandenburg in Betrieb genommen. Es soll vor allem als Überwachungssystem für die Firma dienen, damit man die Spannungen und andere Werten kontrollieren kann. Dazu wird, für eine bessere Übersichtlichkeit und Orientierung, eine Visualisierung angefertigt. (siehe Abbildung(hier einen Bild Visualisation). Die Daten der jeweiligen Batteriezellen sind in einer unpassenden Anordnung gespeichert. Dies ist der konstruktionsbedingten Verlegung des Kommunikationskabels geschuldet. Dabei ist meine Aufgabe ein Algorithmus zu entwickeln, der die Daten in die richtige, von uns festgestellte, Anordnung sortiert. Damit sollen die Messwerte richtig in der Visualisierung gezeigt werden. }
+\large{Das Batterie-Management-System ist ein System, welches in der Abteilung Embedded Systems zur Überwachung von Batteriezellen entwickelt wurde. Das BMS misst Spannung, Temperatur und Leitwert an den jeweiligen Zellen. Eine BMS-Platine kann man mit 12 Zellen verbinden und von allen den Spannungswert auslesen. Das BMS wurde in dem Batteriespeicher in Alt Daber im Brandenburg in Betrieb genommen. Es soll vor allem als Überwachungssystem für die Firma dienen, damit man die Spannungen und andere Werten kontrollieren kann. Dazu wird, für eine bessere Übersichtlichkeit und Orientierung, eine Visualisierung angefertigt. (siehe Abbildung \ref{ebu_bms}). Die Daten der jeweiligen Batteriezellen sind in einer unpassenden Anordnung gespeichert. Dies ist der konstruktionsbedingten Verlegung des Kommunikationskabels geschuldet. Dabei ist meine Aufgabe ein Algorithmus zu entwickeln, der die Daten in die richtige, von uns festgestellte, Anordnung sortiert. Damit sollen die Messwerte richtig in der Visualisierung gezeigt werden. }
 
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=0.99\textwidth]{images/BMS.png}
+  \caption{EBU - BMS - Visualisierung}
+  \label{ebu_bms}
+\end{figure}
 
+\pagebreak
 \section{Erstellung eines BMS-Planes}
 \large{Die Batterien sollen mit dem BMS-System belegt werden. Dafür wurde ein Plan zur Verteilung von BMS Platinen konzipiert. Es existierten mehrere Pläne/Versionen, wie die Platinen verbunden werden können. Wichtige Punkte waren, dass die Kommunikationskabel nicht länger als das festgelegte Maximum werden und dass die Batteriezellen mit dem BMS System verbunden werden. Der Plan sollte übersichtlich sein, weil es der Orientierung in dem EBU dienen soll. Der Plan wurde mit Microsoft Word erstellt. Während einer Gruppenbesprechung wurde die Nummerierung der jeweiligen Teile der EBU festgelegt. In einer EBU gibt es 16 Trog-Verbunde mit jeweils 5 Trögen. Ein Trog hat zwei Zellenblöcke mit jeweils 6 Zellen. Eine Platine kann Werte von zwei Zellenblöcken messen. Die Platine ist allerdings durch die Kabellängen beschränkt und reicht nicht über einen Trog, das heißt, dass die Platine die Werte von zwei benachbarten Zellblöcken messen kann.\\
-In dem ersten Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}).) ist die Verteilung und Nummerierung zu sehen.\\
+In dem ersten Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende}).ist die Verteilung und Nummerierung zu sehen.\\
 
 \begin{figure}[htbp]
   \centering
