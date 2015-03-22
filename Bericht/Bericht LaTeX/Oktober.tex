@@ -2,12 +2,12 @@
 
 
 \section{Einführung in das Batterie Management System}
-\large{Das Batterie-Management-System ist ein System, welches in der Abteilung Embedded Systems zur Überwachung von Batteriezellen entwickelt wurde. Das BMS misst Spannung, Temperatur und Leitwert an den jeweiligen Zellen. Eine BMS-Platine kann man mit 12 Zellen verbinden und von allen den Spannungswert auslesen. Das BMS wurde in dem Batteriespeicher in Alt Daber im Brandenburg in Betrieb genommen. Es soll vor allem als Überwachungssystem für die Firma dienen, damit man die Spannungen und andere Werten kontrollieren kann. Dazu wird, für eine bessere Übersichtlichkeit und Orientierung, eine Visualisierung angefertigt. (siehe Abbildung \ref{ebu_bms}). Die Daten der jeweiligen Batteriezellen sind in einer unpassenden Anordnung gespeichert. Dies ist der konstruktionsbedingten Verlegung des Kommunikationskabels geschuldet. Dabei ist meine Aufgabe ein Algorithmus zu entwickeln, der die Daten in die richtige, von uns festgestellte, Anordnung sortiert. Damit sollen die Messwerte richtig in der Visualisierung gezeigt werden. }
+\large{Das Batterie-Management-System (BMS) ist ein System, welches in der Abteilung Embedded Systems zur Überwachung von Batteriezellen entwickelt wurde. Das BMS misst Spannung, Temperatur und Leitwert an den jeweiligen Zellen. Eine BMS-Platine kann man mit 12 Zellen verbinden und von allen den Spannungswert auslesen. Das BMS wurde in dem Batteriespeicher in Alt Daber im Brandenburg in Betrieb genommen. Es soll vor allem als Überwachungssystem für die Firma dienen, damit man die Spannungen und andere Werten kontrollieren kann. Dazu wird, für eine bessere Übersichtlichkeit und Orientierung, eine Visualisierung der Energy-Buffer-Unit (EBU) \footnote{Energy-Buffer-Unit ist ein Teil des Kraftwerkssystems. Es handelt sich um einen Container, in dem die Batterien gelagert sind.} angefertigt. (siehe Abbildung \ref{ebu_bms}). Die Daten der jeweiligen Batteriezellen sind in einer unpassenden Anordnung gespeichert. Dies ist der konstruktionsbedingten Verlegung des Kommunikationskabels geschuldet. Dabei ist die Aufgabe ein Algorithmus zu entwickeln, der die Daten in die richtige, von uns festgestellte, Anordnung sortiert. Damit sollen die Messwerte richtig in der Visualisierung gezeigt werden. }
 
 \begin{figure}[htbp]
   \centering
      \includegraphics[width=0.99\textwidth]{images/BMS.png}
-  \caption{EBU - BMS - Visualisierung}
+  \caption{BMS - Visualisierung \cite{johann}}
   \label{ebu_bms}
 \end{figure}
 
@@ -18,7 +18,7 @@ In dem ersten Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende
 
 \begin{figure}[htbp]
   \centering
-     \includegraphics[width=0.99\textwidth]{images/Plan_Trogverbund.png}
+     \includegraphics[width=0.8\textwidth]{images/Plan_Trogverbund.png}
   \caption{Plan mit Beschriftung}
   \label{Plan_Trogverbund}
 \end{figure}
@@ -30,6 +30,8 @@ In dem ersten Plan (siehe Abbildung \ref{Plan_Trogverbund} und \ref{plan_legende
   \label{plan_legende}
 \end{figure}
 
+
+\pagebreak
 In dem zweiten Plan geht es hauptsächlich um die Verkabelung zwischen den BMS-Platinen. Die Platinen wurden mit Kommunikationskabeln verbunden. Dies ist mit blau gekennzeichnet (siehe Abbildung \ref{Montage_plan}).
 
 \begin{figure}[htbp]
@@ -38,13 +40,12 @@ In dem zweiten Plan geht es hauptsächlich um die Verkabelung zwischen den BMS-Pl
   \caption{Verkabelung von Platinen}
   \label{Montage_plan}
 \end{figure}
-\pagebreak
+
 
 
 \section{Entwicklung der Algorithmus}
 \large{Zu nächst wurden Tabellen im Excel erstellt. Die erste Tabelle beinhaltet Informationen zur Verteilung von Platinen. Aus dieser Tabelle sollte man schnell die Nummer der Platine auslesen, welche zum Beispiel die Batteriezelle Nummer 5 des Troges 2 des Trog-Verbundes 11 messen würde (siehe Tabellen \ref{tbl:tabelle_excel}). Diese Tabelle dient der besseren Orientierung in einer EBU. \\ 
 In der nächsten Tabelle ist der Zusammenhang zwischen gespeicherte und festgestellte Werte-Indizes beschrieben. Aus dieser Tabelle sollte man zum Beispiel auslesen, dass die Platine Nummer 1 auf die Indizes 0 bis 14 die Werten vom 5. Trog des 1. und 3. Trog-Verbundes speichert. Damit es sortiert wird, muss man die Indizes 0 bis 14 mit die festgesetzte Indizes überschreiben, in diesem Fall werden es Indizes von 210 bis 215, von 60 bis 65 und drei Indizes 222, 223 und 224 (siehe Tabelle \ref{tbl:example_tabelle_indexing}). Die Visualisierung wird die festgelegte Anordnung anzeigen. \\
-
 
 \begin{table}
   \caption{Tabelle mit Trogverbund und Reihenordnung}
@@ -52,17 +53,23 @@ In der nächsten Tabelle ist der Zusammenhang zwischen gespeicherte und festgeste
 	\includegraphics[width=\linewidth]{images/example2_tabelle_excel.png}
 \end{table}
 
-% Die Excel Tabellen erstellt, einen System gefunden, sehr viel Berechnen, logische Denken, Spannungswerten, Temperatur, Leitwert, Error
-
 \begin{table}
   \caption{Tabelle mit Indexen}
   \label{tbl:example_tabelle_indexing}
   \includegraphics[width=\linewidth]{images/example_tabelle_indexing.png}
 \end{table}
+\pagebreak
 
-Nach dem die Fakten gesammelt wurden, kann man den Algorithmus entwickeln. Man muss die Zusammenhänge finden und davon allgemeine Regeln bilden. Diese Regeln müssen alle Werte-Indizes beschreiben. Dann sind die Regeln zusammengefasst und eine Vereinfachung je nach Möglichkeiten erfolgt. Diese Vereinfachungen wurden mit der Programmiersprache \textit{C} geschrieben. Mit If- und Switch-Operatoren und for-Schleifen wurde die Zuordnung der jeweiligen Werte-Indizes auf die von uns fest gestellten Indizes durchgeführt.\\ %siehe Anhang mit dem Algorithmus
+Nach dem die Fakten gesammelt wurden, kann man den Algorithmus entwickeln. Man muss die Zusammenhänge finden und davon allgemeine Regeln bilden. Diese Regeln müssen alle Werte-Indizes beschreiben. Dann sind die Regeln zusammengefasst und eine Vereinfachung je nach Möglichkeiten erfolgt. Diese Vereinfachungen wurden mit der Programmiersprache \textit{C} geschrieben. Mit If- und Switch-Operatoren und for-Schleifen wurde die Zuordnung der jeweiligen Werte-Indizes auf die von uns fest gestellten Indizes durchgeführt (siehe Abbildung \ref{erste_algorithmus}).\\ 
 
-Die Visualisierung der BMS Daten erfolgt über die B\&R Umgebung, welche die Sprache \textit{ST} benutzt. Der Code in \textit{C} wurde in die Sprache ST umgewandelt und dann in die Umgebung eingesetzt. }%siehe Screenshot von Johann
+\begin{figure}[htbp]
+  \centering
+     \includegraphics[width=0.9\textwidth]{images/algorit.png}
+  \caption{Erster Teil des Algorithmus}
+  \label{erste_algorithmus}
+\end{figure}
+
+Die Visualisierung der BMS Daten erfolgt über die B\&R Umgebung, welche die Sprache \textit{ST} benutzt. Der Code in \textit{C} wurde in die Sprache ST umgewandelt und dann in die Umgebung eingesetzt.}
 
 \pagebreak
 

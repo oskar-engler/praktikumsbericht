@@ -2,12 +2,12 @@
 
 \section{Zielstellung}
 \large
-{Ab November entstand ein neues Projekt mit dem Ziel einer Datenvisualisierung von einem Kraftwerk. Die Visualisierung erfolgt dabei in Form von Diagrammen und Tabellen auf einer eigens eingerichteten Website. Am Anfang wurde die Zielstellung des Projektes in einer Reihe von Besprechungen erarbeitet. In diesen Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebettete Systeme sollte einen Webserver mit einer PostgreSQL-Datenbank bereitstellen, auf der die Live-Daten des Batteriekraftwerkes bereitgestellt werden. Meine Aufgabe war die Visualisierung der Daten. Die visualisierten Daten sollen auf einer Website dargestellt werden. \\
-Die Daten aus dem Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Die Eignung der Daten zur Visualisierung wurde mit dem Betreuer abgestimmt. Es wurde ebenfalls besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks, jQuery und dazugehörige Software für die Bearbeitung.}
+{Ab November entstand ein neues Projekt mit dem Ziel einer Datenvisualisierung von einem Kraftwerk. Die Visualisierung erfolgt dabei in Form von Diagrammen und Tabellen auf einer eigens eingerichteten Website. Am Anfang wurde die Zielstellung des Projektes in einer Reihe von Besprechungen erarbeitet. In diesen Besprechungen wurden die jeweiligen Aufgaben verteilt. Die Abteilung Eingebettete Systeme sollte einen Webserver mit einer SQL-Datenbank bereitstellen, auf der die Live-Daten des Batteriekraftwerkes bereitgestellt werden. Die Aufgabe war die Visualisierung der Daten. Die visualisierten Daten sollen auf einer Website dargestellt werden. \\
+Die Daten aus dem Kraftwerk sollen übersichtlich und mittels Diagrammen visualisiert werden. Die Eignung der Daten zur Visualisierung wurde mit dem Betreuer abgestimmt. Es wurde ebenfalls besprochen, welche Mitteln für die Website Erstellung geeignet sind. Dazu gehören Bootstrap Frameworks\footnote{Bootstrap ist [...] Framework mit HTML, CSS und JS für die Entwicklung von anpassungsfähigen Projekten für das moderne Web.\cite{boots}}, jQuery({weil: ,,Ohne JavaScript-Bibliothek müssen Entwickler häufig viele Zeilen Code schreiben, um den DOM-Baum (Document Object Model) zu durchlaufen und einzelne Teile der Struktur eines HTML-Dokuments zu finden. Mit jQuery steht den Entwicklern ein robuster und effizienter Selektionsmechanismus zur Verfügung, der es einfach macht, genau den Teil eines Dokuments abzurufen, den Sie untersuchen oder bearbeiten wollen"'.}\cite[S. 7-8]{jquery}) und dazugehörige Software für die Bearbeitung.}
 
 
 \section{Konzipierung}
-\large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit dem Grafikprogramm GIMP erstellt, wo die erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht wurden. Damit die Auswahl der jeweiligen Länder noch übersichtlicher wird, ist unser Team auf der Idee gekommen, dass wir eine große Karte in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
+\large{Es soll ein Konzept für die Website entwickelt werden. Es wird ein Konzept mit dem Grafikprogramm GIMP\footnote{GIMP ist ein freies, sehr leistungsfähiges Photo- und Bildbearbeitungsprogramm.\cite{gimp}}. erstellt, wo die erste Konzepte für die Anmeldung-Seite (siehe Abbildung \ref{login_seite}) und für die Seite, wo die jeweiligen Länder und Anlagen angezeigt werden (siehe Abbildung \ref{Anlagenblocke}), gemacht wurden. Damit die Auswahl der jeweiligen Länder noch übersichtlicher wird, ist unser Team auf der Idee gekommen, dass wir eine große Karte in die Seite implementieren werden, wo der Benutzer aus der jeweiligen Region/Land ein Kraftwerk auswählen kann. Es wurden auch erste Konzepte für die Tabellen, Fehlermeldungen und Diagrammen gemacht.}
 
 \vspace{0,5cm}
 
@@ -31,7 +31,7 @@ Die Daten aus dem Kraftwerk sollen übersichtlich und mittels Diagrammen visualis
 
 
 \section{Website - Entwicklung}
-\large{Nächste Aufgabe war, die entwickelte Konzepte mit statischem HTML, CSS und Javascript umzusetzen. Unser Team hat abgesprochen, dass wir für die Website Entwicklung das Bootstrap Frameworks\footnote{Bootstrap ist ein freies und sehr häufig verwendetes CSS-Framework. Es enthält auf HTML und CSS basierende Gestaltungsvorlagen für Typografie, Formulare, Buttons, Tabellen, Grid-System, Navigations- und andere Oberflächengestaltungselemente sowie zusätzliche, optionale JavaScript-Erweiterungen.} benutzen werden. Das hat sehr viele Vorteile, als beim Null zu starten. Erstens ist das Bootstrap auch für kommerzielle Benutzung kostenlos, zweitens es beschleunigt die Arbeit, weil es sozusagen schon die CSS-Programmierung enthält und wir nutzen nur die vorkonfiguriertes CSS Style für die jeweiligen HTML Elementen und drittens Bootstrap bietet sehr kompatible und responsive Design, das heißt, dass die Seite auch für alle Browsers sowie Handys und Tablets optimiert ist. Für die Programmierung habe ich die Software Sublime Text genutzt.\\
+\large{Nächste Aufgabe war, die entwickelte Konzepte mit statischem HTML, CSS und Javascript umzusetzen. Unser Team hat abgesprochen, dass wir für die Website Entwicklung das Bootstrap Frameworks benutzen werden. Das hat sehr viele Vorteile, als beim Null zu starten. Erstens ist das Bootstrap auch für kommerzielle Benutzung kostenlos, zweitens es beschleunigt die Arbeit, weil es sozusagen schon die CSS-Programmierung enthält und wir nutzen nur die vorkonfiguriertes CSS Style für die jeweiligen HTML Elementen und drittens Bootstrap bietet sehr kompatible und responsive Design, das heißt, dass die Seite auch für alle Browsers sowie Handys und Tablets optimiert ist. Für die Programmierung wurde die Software Sublime Text genutzt.\\
 Das erste Konzept der Login-Seite war mit Bootstrap gemacht (siehe Abbildung \ref{login_seite_boot}), eine einfache HTML Seite mit Belectric Logo, Anmeldungsfelder und einen Button 'Sign In'.\\}
 
 \begin{figure}[htbp]
@@ -52,7 +52,7 @@ In unserem Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen 
 		\label{html_list_kontinente}
 \end{figure}
 
-\large{Wichtig war, dass die wichtige Informationen nach dem Anklicken eines Kraftwerkes angezeigt werden. Das wurde mit einer HTML-Tabelle umgesetzt. Man muss die Zeilen und Spalten definieren und alles in ein definiertes Feld (div) einbetten. Man muss darauf achten, dass die jeweiligen Tabellen den jeweiligen Listenelementen untergeordnet sind. Die HTML \textbf{table} ist auch von den Bootstrap stilisiert und verhält sich responsive. Damit es mit Bootstrap CSS funktioniert, muss man in den \textbf{class} derjenige Tabellen die richtigen Class-Namen für das Verhalten dieser HTML Element eingeben. In meinen Fall wurden die Klassen [\textbf{class="'table-responsive table table-bordered"'}] benutzt (siehe Abbildung \ref{List_Kontinente_Europa_Germany}). Über CSS habe ich noch Farben zu Unterscheidung eingestellt und Effekte wie, wenn man über die Listenelementen mit dem Cursor übergeht, bekommt der Element eine andere Farbe.}
+\large{Wichtig war, dass die wichtige Informationen nach dem Anklicken eines Kraftwerkes angezeigt werden. Das wurde mit einer HTML-Tabelle umgesetzt. Man muss die Zeilen und Spalten definieren und alles in ein definiertes Feld (div) einbetten. Man muss darauf achten, dass die jeweiligen Tabellen den jeweiligen Listenelementen untergeordnet sind. Die HTML \textbf{table} ist auch von den Bootstrap stilisiert und verhält sich responsive. Damit es mit Bootstrap CSS funktioniert, muss man in den \textbf{class} derjenige Tabellen die richtigen Class-Namen für das Verhalten dieser HTML Element eingeben. Es wurden die Klassen [\textbf{class="'table-responsive table table-bordered"'}] benutzt (siehe Abbildung \ref{List_Kontinente_Europa_Germany}). Über CSS wurden noch Farben zu Unterscheidung eingestellt und Effekte wie, wenn man über die Listenelementen mit dem Cursor übergeht, bekommt der Element eine andere Farbe.}
 
 \begin{figure}[htbp]
 	\centering
@@ -62,8 +62,7 @@ In unserem Fall, war \textbf{col-lg-8} für die Kontinente eingestellt und einen 
 \end{figure}
 
 \large{Damit die jeweiligen Listenelementen nach dem Klick immer noch auf einer Seite geöffnet werden, wurde ein 
-jQuery \footnote{jQuery (auch: jQuery Core) ist eine freie JavaScript-Bibliothek, die Funktionen zur DOM-Navigation und -Manipulation zur Verfügung stellt. Die von John Resig entwickelte Bibliothek wurde im Januar 2006 auf dem BarCamp (NYC) in New York veröffentlicht und wird laufend weiterentwickelt.}
-Skript entwickelt. Das Ziel war, dass beim Anklicken das untergeordnete Listenelement bzw. Tabelle nach unten rutscht. Die jQuery biete eine solche Funktion: \textbf{slideToggle}, welche der Absicht entspricht. Man muss definieren, welche Elemente dieser Funktion vornehmen sollen (Siehe Abbildung \ref{jQuery_america_slide}). Deswegen müssen die HTML Elemente mit IDs oder Klassen verbunden sein. 
+jQuery Skript entwickelt. Das Ziel war, dass beim Anklicken das untergeordnete Listenelement bzw. Tabelle nach unten rutscht. Die jQuery biete eine solche Funktion: \textbf{slideToggle}, welche der Absicht entspricht. Man muss definieren, welche Elemente dieser Funktion vornehmen sollen (Siehe Abbildung \ref{jQuery_america_slide}). Deswegen müssen die HTML Elemente mit IDs oder Klassen verbunden sein. 
 
 \begin{figure}[htbp]
 	\centering
@@ -76,7 +75,7 @@ Skript entwickelt. Das Ziel war, dass beim Anklicken das untergeordnete Listenel
 %-----------------------------------------------------------------
 
 \large{Ein festes Design bzw. Layout wurde gewünscht um die Benutzeroberfläche angenehm zu gestalten, haben wir uns entscheidet, dass die Seite mit dem \textbf{sb-admin-2} umgebaut wird. Es handelt sich um einen Template\footnote{Eine Schablone oder Muster mit vorgemachten Design und Layout eine Seite.} für Bootstrap. Es hat bereits Layout-Elemente wie eine Navigation-leiste und einem responsive Seitenmenü. Wir nutzen dies für das Umbauen der Seite. Die Login Seite ist geblieben und die anderen Seiten wurden teilweise in das Template implementiert.\\
-Als erste wurde die Idee mit den Karten und der Auswahl von Kraftwerken aus jeweiligen Länder mit Pointers umgesetzt. Dazu wurde eine Javascript-Bibliothek und die Open-Source Karten benötigt. Für meinen Fall war die Javascript Bibliothek \textbf{Leaflet} die Lösung. Es ist leicht anwendbar und auch responsive. Damit es funktionieren kann, braucht man eine Karten-Ebene und die Lagekoordinaten. Dann wird ein Skript zum darstellen dieser Karte geschrieben (Siehe Abbildung \ref{leaflet_map}). Dieses Skript wurde in die Karte mit div definiert und damit konnte die Karte angezeigt werden. In Abbildung \ref{new_karte_auswahl} ist die Ansicht im Browser zu erkennen.}
+Als erste wurde die Idee mit den Karten und der Auswahl von Kraftwerken aus jeweiligen Länder mit Pointers umgesetzt. Dazu wurde eine Javascript-Bibliothek und die Open-Source Karten benötigt. Für diesen Fall war die Javascript Bibliothek \textbf{Leaflet} die Lösung. Es ist leicht anwendbar und auch responsive. Damit es funktionieren kann, braucht man eine Karten-Ebene und die Lagekoordinaten. Dann wird ein Skript zum darstellen dieser Karte geschrieben (Siehe Abbildung \ref{leaflet_map}). Dieses Skript wurde in die Karte mit div definiert und damit konnte die Karte angezeigt werden. In Abbildung \ref{new_karte_auswahl} ist die Ansicht im Browser zu erkennen.}
 
 \hspace{2cm}
 
@@ -115,7 +114,7 @@ Es wurde noch die \textbf{collapse} Funktion eingebaut, das beim Anklicken einer
 
 \begin{figure}[htbp]
 	\centering
-				\subfigure[HTML - Quellcode Linke Menü]{\includegraphics[width=0.77\textwidth]{images/links_menu_modules.png}}
+				\subfigure[HTML - Quellcode Linke Menü]{\includegraphics[width=1\textwidth]{images/links_menu_modules.png}}
 				\subfigure[im Browser: EBU Master aktiv]{\includegraphics[width=0.22\textwidth]{images/links_menu_modules_browser.png}}
 		\caption{Modulen-Menü links}
 		\label{links_menu_modules}
@@ -125,12 +124,12 @@ Es wurde noch die \textbf{collapse} Funktion eingebaut, das beim Anklicken einer
 
 
 \section{Die SQL-Datenbank}
-\large{Die postgreSQL\footnote{PostgreSQL [...] ist ein freies, objektrelationales Datenbankmanagementsystem (ORDBMS).} ist ein essenzieller Bestandteil des Projektes. In dieser Datenbank liegen die Messwerte und Kraftwerkskenndaten vor. Es gibt eine Tabelle für die Meta-Daten und dann eine Tabellen für die gesendeten Daten eines Kraftwerkes. Unser Team hat abgesprochen, wie die Meta-Datenbank\footnote{Meta-Datenbank dient in unseren Fall als Datenbank mit Kenndaten und allgemeine Information, wie zum Beispiel: Name, Lage, Baujahr usw. eines Kraftwerks} aussehen wird. Meine Aufgabe war dann die Datenbank erstellen. Das kann auf der Kommandozeile oder einem Web-Frontend z.B. Adminer geschehen, in dem SQL-Abfragen abgesetzt werden können.(siehe Abbildung \ref{sql_dump}).
+\large{Die postgreSQL\footnote{PostgreSQL [...] ist ein freies, objektrelationales Datenbankmanagementsystem (ORDBMS).} ist ein essenzieller Bestandteil des Projektes. In dieser Datenbank liegen die Messwerte und Kraftwerkskenndaten vor. Es gibt eine Tabelle für die Meta-Daten und dann eine Tabellen für die gesendeten Daten eines Kraftwerkes. Unser Team hat abgesprochen, wie die Meta-Datenbank\footnote{Meta-Datenbank dient in unseren Fall als Datenbank mit Kenndaten und allgemeine Information, wie zum Beispiel: Name, Lage, Baujahr usw. eines Kraftwerks} aussehen wird. Die nächste Aufgabe war dann die Datenbank erstellen. Das kann auf der Kommandozeile oder einem Web-Frontend z.B. Adminer geschehen, in dem SQL-Abfragen abgesetzt werden können.(siehe Abbildung \ref{sql_dump}).
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=1\textwidth,height=10cm]{images/sql_dump.png}
-		\caption{Ein Teil mein implementiertes SQL Quellcode}
+		\caption{Ein Teil der implementiertes SQL Quellcode}
 		\label{sql_dump}
 \end{figure}
 \pagebreak
@@ -148,7 +147,7 @@ Dort werden die Tabellen der Datenbank mit allen Spalten und Datentypen definier
 \pagebreak
 
 \section{Datenvisualisierung - Charts}
-\large{Der nächste Schwerpunkt war eine Javascript oder jQuery Bibliothek zu finden, welche die Daten in geeigneten Diagrammen visualisieren und dynamisch Inhalte nachladen kann. Die Möglichkeiten wie 'Export Diagramm als Bild', Timeline\footnote{Auswählen einen Zeitabschnitt}, direktes Datum-Auswahl, Zoom, gleichzeitige Vergleichen von mehreren Daten waren meine Vergleichspunkte. Nach dem Untersuchen von mehreren freien oder auch kostenpflichtigen Bibliotheken war mit dem Betreuer abgesprochen, dass ich auf der Übersichtsseite und den Seiten der Module eine einfache Bibliothek: \textbf{dyGraphs} benutze. Die \textbf{dyGraphs} sind einfach, responsive, zoom-fähig und können Daten im Format von CSV\footnote{Das Dateiformat CSV steht für englisch Comma-separated values (seltener Character-separated values, da das Trennzeichen nicht zwingend ein Komma sein muss) und beschreibt den Aufbau einer Textdatei zur Speicherung oder zum Austausch einfach strukturierter Daten. Die Dateinamenserweiterung lautet .csv.}visualisieren (siehe Abbildung \ref{dygraphs_test}). Es war noch abgesprochen, dass ich einen Link zur neuen Fenster mit Diagramm-Bibliothek \textbf{Amstockcharts} machen soll. Die \textbf{Amstockcharts} sind das Vergleichen mehrerer Datensätze gut geeignet. Man kann auch die Diagrammen exportieren und man hat viele Möglichkeiten, welchen Zeitabschnitt dargestellt sein soll (siehe Abbildung \ref{amstockcharts_test}). 
+\large{Der nächste Schwerpunkt war eine Javascript oder jQuery Bibliothek zu finden, welche die Daten in geeigneten Diagrammen visualisieren und dynamisch Inhalte nachladen kann. Die Möglichkeiten wie 'Export Diagramm als Bild', Timeline\footnote{Auswählen einen Zeitabschnitt}, direktes Datum-Auswahl, Zoom, gleichzeitige Vergleichen von mehreren Daten waren die Vergleichspunkte. Nach dem Untersuchen von mehreren freien oder auch kostenpflichtigen Bibliotheken war mit dem Betreuer abgesprochen, dass auf der Übersichtsseite und den Seiten der Module eine einfache Bibliothek: \textbf{dyGraphs} benutzt werden soll. Die \textbf{dyGraphs} sind einfach, responsive, zoom-fähig und können Daten im Format von CSV\footnote{Comma Separated Values (CSV) ist ein Textdateiformat, mit dem Sie Daten aus einem Datenbank- oder Tabellendokument anwendungsübergreifend austauschen können.\cite{csv}}visualisieren (siehe Abbildung \ref{dygraphs_test}). Es war noch abgesprochen, dass es einen Link zur neuen Fenster mit Diagramm-Bibliothek \textbf{Amstockcharts} erstellen soll. Die \textbf{Amstockcharts} sind das Vergleichen mehrerer Datensätze gut geeignet. Man kann auch die Diagrammen exportieren und man hat viele Möglichkeiten, welchen Zeitabschnitt dargestellt sein soll (siehe Abbildung \ref{amstockcharts_test}). 
 
 \begin{figure}[htbp]
 	\centering
@@ -170,7 +169,7 @@ Bei der \textbf{dyGraphs} ist zu beachten, dass die Daten im Form von CSV sind o
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.6\textwidth]{images/dyGraphs_JS.png}
+		\includegraphics[width=0.8\textwidth]{images/dyGraphs_JS.png}
 		\caption{dyGraphs Beispiel-Diagramm}
 		\label{dyGraphs_JS}
 \end{figure}
@@ -180,20 +179,16 @@ Die Amcharts sind komplexere, größere und reine Javascript Charts-Bibliothek, di
 
 \begin{figure}[htbp]
 	\centering
-				\includegraphics[width=0.8\textwidth]{images/amstockcharts_JS.png}
+				\includegraphics[width=0.95\textwidth]{images/amstockcharts_JS.png}
 		\caption{Amstockcharts Beispiel-Diagramm}
 		\label{amstockcharts_JS}
 \end{figure}
-
 \pagebreak
 
-% Letzte HTML im Anhang includen
-%-------------------------------
-
-
 \section{PHP}
-\large{Der nächste Schwerpunkt war die dynamische Umsetzung in PHP\footnote{ist eine Skriptsprache mit einer an C und Perl angelehnten Syntax, die hauptsächlich zur Erstellung dynamischer Webseiten oder Webanwendungen verwendet wird. PHP wird als freie Software unter der PHP-Lizenz verbreitet. PHP zeichnet sich durch breite Datenbankunterstützung und Internet-Protokolleinbindung sowie die Verfügbarkeit zahlreicher Funktionsbibliotheken aus}. Es wurde benötigt, weil die Website dynamisch sein soll. Die bereits erstellte HMTL Seite wurde mit PHP umgesetzt. Nach der Bearbeitung wird es als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und dann die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.\\
-Über PHP kann man auf die Datenbank zugreifen und somit die Daten in die Diagramme einpflegen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittles \textbf{connect} und in unseren Fall das \textbf{pg\_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg\_query} die Daten aus der Datenbank auf eine Variable aufladen. Diese Variable wird dann benutzt, um den Diagramm richtigen Weg zur Daten konfigurieren. \\ %includen code von connect und query
+\large{Der nächste Schwerpunkt war die dynamische Umsetzung in PHP\footnote{ist eine Skriptsprache mit einer an C und Perl angelehnten Syntax, die hauptsächlich zur Erstellung dynamischer Webseiten oder Webanwendungen verwendet wird. [..] PHP zeichnet sich durch breite Datenbankunterstützung und Internet-Protokolleinbindung}. Es wurde benötigt, weil die Website dynamisch sein soll. Die bereits erstellte HMTL Seite wurde mit PHP umgesetzt. Nach der Bearbeitung wird es als \textbf{.php} Datei gespeichert und auf den Server hingelegt. Der Server hat einen FTP-Zugang. Über den kann man die Dateien hochladen und dann die Seite über eine IP-Adresse besuchen. Die PHP Skript-Sprache ist eine serverseitige Sprache, das heißt, dass der Code auf den Server verarbeitet wird. In der PHP-Interpreter wird das Code verarbeitet und erzeugt eine Datei, welche an den Client zurückgegeben wird.\\
+Über PHP kann man auf die Datenbank zugreifen und somit die Daten in die Diagramme einpflegen. Erstens muss man sich mit Datenbank verbinden. Das erfolgt mittles \textbf{connect} und in unseren Fall das \textbf{pg\_connect}, weil wir die postgreSQL benutzen. Nach der Verbindung mit SQL kann man mit den Befehlen \textbf{pg\_query} die Daten aus der Datenbank auf eine Variable aufladen. Diese Variable wird dann benutzt, um den Diagramm richtigen Weg zur Daten konfigurieren. \\ 
+%includen code von connect und query
 Die Daten werden in eine Form gespeichert, welche die Diagramme nicht verarbeiten können. Das heißt, man muss die Umwandlung in die Form von JSON oder CSV durchführen. Diese sind von Diagrammen akzeptiert. Die Umwandlung in JSON kann man mit \textbf{encode\_json} machen. Für die CSV Form wurde ein Parser\footnote{Ein Parser ist ein Computerprogramm, das in der Informatik für die Zerlegung und Umwandlung einer beliebigen Eingabe in ein für die Weiterverarbeitung brauchbares Format zuständig ist.} geschrieben (siehe Abbildung \ref{csv_parser}).\\ %siehe include parserCSV 
 Die \textbf{pg\_query} wird nicht nur für die Diagrammen benutzt sondern auch für Menü mit Ländern, Menü mit Modulen eines Kraftwerkes und andere. Über diese \textbf{PHP} Funktionen kann man die Meta-Daten benutzen um dynamische Menüs bauen. Wenn zum Beispiel die Kraftwerk in Alt Daber zwei EBUs, zwei Wechselrichter, zwei BMS und einen Pool hat, so wird das auch im Meta-Datenbank gespeichert und auf der Website wird die Menü in diese Konfiguration angezeigt (siehe Abbildung\ref{altdaber_menu_php}). So wird die Seite automatisiert und wenn eine neue Kraftwerk in die SQL hinzugefügt wird, dann wird es auch an die Seite angezeigt.\\}
 
@@ -206,12 +201,28 @@ Die \textbf{pg\_query} wird nicht nur für die Diagrammen benutzt sondern auch fü
 
 \begin{figure}[htbp]
 	\centering
-				\includegraphics[]{images/altdaber_menu_php.png}
+				\includegraphics[width=0.25\textwidth]{images/altdaber_menu_php.png}
 		\caption{Menü über PHP}
 		\label{altdaber_menu_php}
 \end{figure}
 
 
-\section{Fazit}\thispagestyle{fancy}
+\section{Test Durchführung}\thispagestyle{fancy}
+\large{Der Test besteht daran, dass die Ladezeiten der Website-Diagrammen klein wie möglich bleiben sollen. Die ersten Ergebnisse zeigen lange Ladezeiten, die sich über 1 Sekunde laden. (siehe Abbildung \ref{ebu_sec_test_vor}). Bei mehrere Daten, wie zum Beispiel Frequenzen, Stromwerten und Spannungswerten eines Moduls, können die Ladezeiten der gesamte Website über 20 Sekunden gehen. Damit die Website sich schneller lädt, wurde die Datenmenge der eingeladenen Werten reduziert und damit die gesamt Ladezeit verringert. Die \textbf{pg\_query} ermöglicht verschiedene Einstellungen, unter welchen sind auch Auswahl der Menge der Daten. Man kann einstellen, dass die \textbf{pg\_query} nur jede zweite oder dritte Zahl sich nehmen soll. Damit wurden die Ladezeiten unter 1 Sekunde gebracht(siehe Abbildung \ref{ebu_sec_test_nach}).}
 
+\begin{figure}[htbp]
+	\centering
+				\includegraphics[width=1\textwidth]{images/ebu_sec_test_rev.png}
+		\caption{Ladezeiten vor dem Reduzieren}
+		\label{ebu_sec_test_vor}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+				\includegraphics[width=1\textwidth]{images/ebu_sec_test.png}
+		\caption{Ladezeiten nach dem Reduzieren}
+		\label{ebu_sec_test_nach}
+\end{figure}
+
+\section{Fazit}\thispagestyle{fancy}
 \large{Die Website dient jetzt vor allem als Werkzeug zur Datenanalyse, welche an den Server gesendet werden. Die Benutzer können sich die Daten aus verschiedene Modulen des Kraftwerkes anzeigen lassen. Man kann auch größere Zeitspannen sowie kürzere Zeit-Intervallen einstellen und dann die Daten vergleichen.}
